@@ -17,7 +17,7 @@ function LeftWidget() {
   return (
     <div className="leftwidget">
       <div className="left_widget_header">
-        <h1>Unity</h1>
+        <img src='https://gm1.ggpht.com/ntZCXxreBUrfZu7IEwSbM9jj2tpzR2cLXo8MJQ7hCg-pl2drr7ZE5juFMUL4Yu33e-5E3TvSq31GFqv8mwoJb0Ffw1hX3ApylFugQO-PlVjfPONfq6vPfIRURjbU1ZLXWYzfnpISDucKZ_72QUZuR2Lgn4zqrVKdBW3Bi5DcA_0s6jJMMqIxseWRdmPGyk1eA7i64NAmFZvRSIo1TQvGFD9L5rNd6rIqGAiAqQ-3Ty8gQ6risC_iO2X9f8_0Ofe9FXxQ222ezcODq4oieveaJDx1gyF4wZ8ukKl8lyiJ0oVsVfK4g3GkDJQr4L48Hj9BonHboYfKCLgmp1tuSqirwibxUh4sqNG1PDHFtWBnZhAOYDpn4MharztLML-yDCxa00jhw_4sny1xaWeDdnS1TEPSx9aeBXuzB34bsHKLEwG7o6M0UBXosqVuwRaaOuWTAhMGpoTS1T0Z6JnI0QkDeHCR5X14O0mYhdzb3wK5p7GjgHF65sVWVXi8ceqOFVz8gktpC5HvxTtLCx7GTqh6GkotU_o9nf1-cO3C8YFaN3-1N0tHT55gCqLvcbyVOpfqUAdoNfpAtujB_PFeEsvH6Wj14a4qtbQ45zgLKsXluasSnUwVVO07GnKjzLUNsaawBJNn0DSRLqjRbbnq3QzmA8tRzgrA8MMBk4EIBMiHoq8vZ_kUxgaR8Hw-X04elR9ycPKx55td876HIbpRoO-3gVe1HF7IX3xvNFBQhR_pWu5uT4-rkrEYkcmHTSa3ywNUmg=s0-l75-ft-l75-ft' alt=''/>
         <KeyboardBackspaceRoundedIcon className="left_widget_header_back_icon" />
       </div>
       <div className="left_widget_middle">
