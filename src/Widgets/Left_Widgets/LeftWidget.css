@@ -1,6 +1,5 @@
 .leftwidget{
         border-right: 1px solid lightgray;
-        height: 100vh;
         max-width: 300px;
 }
 .left_widget_header{
@@ -46,6 +45,74 @@
 }
 .left_widget_middle_option>p{
     font-weight: 600;
+}
+
+
+.left_widget_bottom_messageBox{
+    margin-top: 200px;
+    border-radius: 30px;
+    padding: 20px;
+    width: 220px;
+    margin-left: 15px;
+    background: linear-gradient(210deg , #00f49b, #0cc179 );
+    box-shadow: 0px 10px 50px lightgray;
+    color: white;
+}
+.left_widget_bottom_message_box_icon{
+    margin-left: 180px;
+}
+.left_widget_bottom_message_box_icon>.MuiSvgIcon-root{
+    border-radius: 999px;
+    align-items: center;
+    font-size: 15px;
+    padding: 4px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    transition: 0.5s;
+}
+.left_widget_bottom_message_box_icon>.MuiSvgIcon-root:hover{
+    color: red;
+    transition: 0.5s;
+}
+.left_widget_bottom_message_box_btn{
+    border-radius: 16px;
+    background-color: white;
+    color: black;
+    padding: 2px;
+    width: 130px;
+    cursor: pointer;
+}
+.left_widget_bottom_message_box_btn>p{
+    margin-left: 20px;
+    width: 100px;
+}
+
+
+.left_widget_bottom{
+    margin-top: 50px;
+    display: flex;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    width: 180px;
+    margin-left: 15px;
+    align-items: center;
+    border-radius: 26px;
+    transition: 0.5s;
+}
+.left_widget_bottom_h3{
+    margin-left: 20px;
+    color: gray;
+}
+
+.left_widget_bottom:hover{
+    background-color: rgb(215, 215, 215);
+    transition: 0.3s;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.left_widget_bottomIcon:hover{
+    cursor: pointer;
 }
 
 

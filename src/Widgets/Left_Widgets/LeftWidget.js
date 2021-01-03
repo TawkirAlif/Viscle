@@ -9,6 +9,8 @@ import TrendingUpRoundedIcon from "@material-ui/icons/TrendingUpRounded";
 import BrokenImageRoundedIcon from "@material-ui/icons/BrokenImageRounded";
 import NotificationsActiveRoundedIcon from "@material-ui/icons/NotificationsActiveRounded";
 import SettingsRoundedIcon from "@material-ui/icons/SettingsRounded";
+import CloseRoundedIcon from '@material-ui/icons/CloseRounded';
+import Brightness4RoundedIcon from '@material-ui/icons/Brightness4Rounded';
 import { Button } from "@material-ui/core";
 
 function LeftWidget() {
@@ -71,8 +73,25 @@ function LeftWidget() {
           </div>
         </div>
       </div>
+      <div className='left_widget_bottom_messageBox'>
+        <div className='left_widget_bottom_message_box'>
+          <div className='left_widget_bottom_message_box_icon'>
+            <CloseRoundedIcon />
+        </div>
+          <div className='left_widget_bottom_message_box_text'>
+            <h1>Send Cryto to an Email Address</h1>
+        </div>
+        <div className='left_widget_bottom_message_box_button'>
+            <div className='left_widget_bottom_message_box_btn'>
+              <p>Send Now</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
       <div className='left_widget_bottom'>
-        <div></div>
+        <Brightness4RoundedIcon className='left_widget_bottomIcon'/>
+        <h3 className='left_widget_bottom_h3'>Dark</h3>
       </div>
     </div>
   );
