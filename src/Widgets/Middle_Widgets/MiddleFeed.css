@@ -1,0 +1,135 @@
+
+.feedbox{
+        border-radius: 30px;
+        width: 320px;
+        height: 330px;
+        margin-top: 30px;
+        box-shadow: 0px 10px 50px lightgray;
+        transition: 1s;
+        flex-wrap: wrap;
+        flex: auto;
+        object-fit: contain;
+
+}
+.feedbox:hover{
+        transform: scale(1.02);
+        transition: 0.3s;
+        cursor: pointer;
+}
+.currencyHeader{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        max-height: 100px;
+        border-top-left-radius: 20px ;
+        border-top-right-radius: 20px ;
+        box-shadow: 0px 5px 9px -9px rgba(0, 0, 0, 0.75);
+        background-color: white;
+        border: 1px solid white;
+    
+}
+.feedbox_avatar{
+        cursor: pointer;
+        height: 30px;
+        width: 30px;
+}
+.currencyInfo{
+        display: flex;
+        align-items: center;
+}
+.currency__Info{
+        max-height: 100px;
+        flex-wrap: wrap;
+        margin-left: 8px;
+}
+.currency__info>h2{
+        cursor: pointer;
+        margin-bottom: -15px;
+}
+.currency__info>p{
+        cursor: pointer;
+}
+.feedbox__time{
+        border-radius: 30px;
+        padding: 2px 5px;
+        cursor: pointer;
+        height: fit-content;
+        background-color: aliceblue;
+        justify-content: center;
+        align-items: center;
+}
+.feedbox__time:hover{
+        background-color: rgb(218, 238, 255);
+        color: blue;
+        transition: 0.2s;
+}
+/*
+<img src='https://pbs.twimg.com/media/Eq4zPa7UUAYCN5a?format=png&name=small' alt=''/>
+*/
+.currencyMiddle{
+        width: 100%;
+        height: 210px;
+        min-height: 198px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        transition: 0.3s;
+}
+.currencyMiddle:hover{
+   height: 200px;
+   border-bottom-left-radius: 0px;
+   border-bottom-right-radius: 0px;
+   transition: 0.5s;
+   
+}
+.currencyBottom{
+        max-height: max-content;
+        background-color: transparent;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin-bottom: 10px;
+        height: 0px;
+        position: relative;
+        margin: 30px 90px;
+        padding: 2px;
+        background-color: rgb(0, 94, 255);
+        border-radius: 20px;
+}
+.rateBox{
+        padding: 10px;
+        display: flex;
+}
+
+.r_p{
+        width: 150px;
+        align-items: center;
+        margin-left: 20px;
+}
+.ratebox_right{
+   display: flex;
+   align-items: center;
+   margin-left: 0px;
+}
+.top_rate_badge{
+        color: rgb(0, 217, 0);
+}
+.low_rate_badge{
+        color: red;
+}
+.top_rate{
+        margin-left: 20px;
+        color: rgb(0, 217, 0);
+}
+.low_rate{
+        margin-left: 20px;
+        color: red;
+}
+.tranding{
+  height: 150px;
+  min-height: auto;
+}
+.tranding>img{
+        width: 100%;
+        max-height: 150px;
+        min-height: auto;
+        object-fit: contain;
+}

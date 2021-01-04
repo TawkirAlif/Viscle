@@ -76,11 +76,11 @@ function LeftWidget({RightWidgetMessage}) {
             <CloseRoundedIcon />
         </div>
           <div className='left_widget_bottom_message_box_text'>
-              <h1>{RightWidgetMessage}</h1>
+              <h2>{RightWidgetMessage}</h2>
         </div>
         <div className='left_widget_bottom_message_box_button'>
             <Button className='left_widget_bottom_message_box_btn'>
-              <p>Send Now</p>
+              Send Now
             </Button>
           </div>
           

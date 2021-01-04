@@ -1,6 +1,6 @@
 .header{
         width: auto;
-        padding: 6px 20px;
+        padding: 0px 20px;
         align-items: center;
         display: flex;
         justify-content: space-between;
@@ -9,6 +9,7 @@
 .header__left{
    align-items: center;
    margin: 5px 10px;
+   display: flex;
 }
 .logo{
         margin-right: 20px;
@@ -38,7 +39,8 @@
         align-items: center;
         text-align: center;
         font-size: 2px;
-      }
+        max-width: 600px;
+}
       .search__icon{
         margin: 0 10px;
       }
@@ -47,7 +49,7 @@
         outline: none;
         border: none;
         line-height: 1;
-        font-weight: 600;
+        font-weight: 400;
         font-size: 1.1rem;
         color: #333;
         width: 600px;

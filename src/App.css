@@ -2,3 +2,36 @@
   position: fixed;
   display: flex;
 }
+.middle__widgets{
+  border-right: 1px solid lightgray;
+  overflow-y: scroll;
+  overflow-x: unset;
+  position: relative;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  height: 93vh;
+  width: 780px;
+}
+.middle__widgets::-webkit-scrollbar{
+  display: none;
+}
+.feeds{
+  width: 780px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+.right__widgets{
+  overflow-y: scroll;
+  overflow-x: unset;
+  position: relative;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  height: 93vh;
+  width: 500px;
+}
+.right__widgets::-webkit-scrollbar{
+  display: none;
+}
