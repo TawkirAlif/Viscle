@@ -1,4 +1,4 @@
-.App {
-  text-align: center;
+.app__body{
+  position: fixed;
+  display: flex;
 }
-
