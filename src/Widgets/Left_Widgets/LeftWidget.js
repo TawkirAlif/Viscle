@@ -1,8 +1,10 @@
 import React from "react";
 import "./LeftWidget.css";
+import InsertChartRoundedIcon from '@material-ui/icons/InsertChartRounded';
 import KeyboardBackspaceRoundedIcon from "@material-ui/icons/KeyboardBackspaceRounded";
 import WidgetsRoundedIcon from "@material-ui/icons/WidgetsRounded";
 import SwapHorizRoundedIcon from "@material-ui/icons/SwapHorizRounded";
+import { useHistory } from "react-router-dom";
 import AttachMoneyRoundedIcon from "@material-ui/icons/AttachMoneyRounded";
 import AccountBalanceWalletRoundedIcon from "@material-ui/icons/AccountBalanceWalletRounded";
 import TrendingUpRoundedIcon from "@material-ui/icons/TrendingUpRounded";
@@ -14,6 +16,14 @@ import Brightness4RoundedIcon from '@material-ui/icons/Brightness4Rounded';
 import { Button } from "@material-ui/core";
 
 function LeftWidget({RightWidgetMessage}) {
+  const history = useHistory();
+
+  const exchangePage = (e) => {
+    e.preventDefault();
+    if ('submit')
+        history.push('/exchange')
+  }
+
   return (
     <div className="leftwidget">
       <div className='leftSidebar'>
@@ -25,9 +35,9 @@ function LeftWidget({RightWidgetMessage}) {
               <p>Home</p>
             </div>
           </div>
-          <div className="leftWidgetOption">
-            <div className="left_widget_middle_option">
-              <SwapHorizRoundedIcon className="left_widget_middle_option_icon"/>
+            <div className="leftWidgetOption" >
+            <div className="left_widget_middle_option" type="submit" onClick={exchangePage}>
+              <InsertChartRoundedIcon className="left_widget_middle_option_icon" />
               <p>Exchange</p>
             </div>
           </div>

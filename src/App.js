@@ -1,18 +1,41 @@
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams
+} from "react-router-dom";
+import ExchangePage from './ExchangePage/ExchangePage'
 import LeftWidget from './Widgets/Left_Widgets/LeftWidget.js'
 import Header from './Header/Header'
+import Login from './Login/Login'
 import MiddleWidget from "./Widgets/Middle_Widgets/Middle_Widget";
 import MiddleFeed from "./Widgets/Middle_Widgets/MiddleFeed.js";
 import RightWidget from './Widgets/Right_Widgets/RightWidget';
 function App() {
+
+
+  const user = 'tawkir';
+
+
   return (
     <div className="app">
       <div className="app__header">
         <Header profilrPic="https://avatars1.githubusercontent.com/u/73068865?s=120&v=4" />
       </div>
-      <div className="app__body">
-        <div className="left__widget">
-          <LeftWidget RightWidgetMessage="Send Cryto to an Email Address" />
+      {!user ? (
+        <Login />
+      ) : (
+        <>
+          <Router>
+            <Switch>
+
+              <Route path="/app">
+              <div className="app__body">
+                <div className="left__widget">
+                <LeftWidget RightWidgetMessage="Send Cryto to an Email Address" />
         </div>
         <div className="middle__widgets">
           <MiddleWidget />
@@ -89,6 +112,17 @@ function App() {
           <RightWidget userBalance='1.276383' balanceCurrency='BTC' userBalanceToUsd='11,083.465'/>
         </div>
       </div>
+                </Route>
+                
+                <Route path='/exchange'>
+                    <ExchangePage />
+                </Route>
+
+            </Switch>
+          </Router>
+        </>
+      )}    
+ 
     </div>
   );
 }

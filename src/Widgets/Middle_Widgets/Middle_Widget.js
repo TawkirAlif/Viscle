@@ -114,11 +114,11 @@ function Middle_Widgets() {
                 input={<BootstrapInput />}
               >
                 <MenuItem value="Market Cap">Market Cap</MenuItem>
-                <MenuItem value={0}>Eng/USD</MenuItem>
-                <MenuItem value={0}>Eng/BTC</MenuItem>
-                <MenuItem value={0}>Eng/INR</MenuItem>
-                <MenuItem value={0}>Eng/EUR</MenuItem>
-                <MenuItem value={0}>Eng/BDT</MenuItem>
+                <MenuItem value={1}>Eng/USD</MenuItem>
+                <MenuItem value={2}>Eng/BTC</MenuItem>
+                <MenuItem value={3}>Eng/INR</MenuItem>
+                <MenuItem value={4}>Eng/EUR</MenuItem>
+                <MenuItem value={5}>Eng/BDT</MenuItem>
               </Select>
             </FormControl>
           </div>

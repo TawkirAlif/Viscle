@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState }  from "react";
 import "./Heade.css";
 import SearchIcon from "@material-ui/icons/Search";
 import NotificationsNoneRoundedIcon from "@material-ui/icons/NotificationsNoneRounded";
@@ -9,9 +9,17 @@ import MenuItem from "@material-ui/core/MenuItem";
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
 import InputBase from "@material-ui/core/InputBase";
-import { Avatar } from "@material-ui/core";
+import { Avatar, Button } from "@material-ui/core";
 
-function Header({profilrPic}) {
+function Header({ profilrPic }) {
+  
+  const [input, setInput] = useState("");
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    setInput("");
+  };
+
   const BootstrapInput = withStyles((theme) => ({
     input: {
       borderRadius: 5,
@@ -68,7 +76,9 @@ function Header({profilrPic}) {
       <div className="header__middle">
         <div className="header__input">
           <SearchIcon className="search__icon" />
-          <input type="text" placeholder="Search Today's Trending?" />
+          <input type="text" placeholder="Search Today's Trending?"  value={input}
+            onChange={(e) => setInput(e.target.vlaue)} />
+          <Button  onClick={handleSubmit} type="submit"></Button>
         </div>
       </div>
       <div className="header__right">
@@ -83,14 +93,11 @@ function Header({profilrPic}) {
               onChange={handleChange}
               input={<BootstrapInput />}
             >
-              <MenuItem value="">
-                <em>None</em>
-              </MenuItem>
               <MenuItem value={10}>Eng/USD</MenuItem>
               <MenuItem value={20}>Eng/BTC</MenuItem>
               <MenuItem value={30}>Eng/INR</MenuItem>
-              <MenuItem value={30}>Eng/EUR</MenuItem>
-              <MenuItem value={30}>Eng/BDT</MenuItem>
+              <MenuItem value={40}>Eng/EUR</MenuItem>
+              <MenuItem value={50}>Eng/BDT</MenuItem>
             </Select>
           </FormControl>
                           </div>
