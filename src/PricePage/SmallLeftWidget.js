@@ -23,13 +23,13 @@ function SmallRightWidget() {
     if ('submit')
         history.push('/app')
   }
-  const pricePage = (e) => {
+  const exchangePage = (e) => {
     e.preventDefault();
     if ('submit')
-        history.push('/price')
+        history.push('/exchange')
   }
   return (
-    <div className="Smallleftwidget">
+    <div className="pSmallleftwidget">
       <div className="SmallleftSidebar">
         <div className="Smallleft_widget_middle">
           <div classNmae="Smallleft_widget_middle_raw">
@@ -40,13 +40,13 @@ function SmallRightWidget() {
             </div>
             <div className="SmallleftWidgetOption">
               <Button className="Smallleft_widget_middle_option">
-                <InsertChartRoundedIcon className="Smallleft_widget_middle_option_icon" />
+                <InsertChartRoundedIcon className="Smallleft_widget_middle_option_icon" type="submit" onClick={exchangePage}/>
               </Button>
             </div>
 
             <div className="SmallleftWidgetOption">
               <Button className="Smallleft_widget_middle_option">
-                <AttachMoneyRoundedIcon className="Smallleft_widget_middle_option_icon" type="submit" onClick={pricePage}/>
+                <AttachMoneyRoundedIcon className="Smallleft_widget_middle_option_icon" />
               </Button>
             </div>
             <div className="SmallleftWidgetOption">

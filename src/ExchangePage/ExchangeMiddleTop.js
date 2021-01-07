@@ -10,8 +10,6 @@ import TrendingDownRoundedIcon from "@material-ui/icons/TrendingDownRounded";
 import "./ExchangeMiddleTop.css";
 function ExchangeMiddleTop({
   currencyIcon,
-  SetCurrency,
-  currencyName,
   timeInfo,
   trendPercent,
   lastPrice,
@@ -71,7 +69,7 @@ function ExchangeMiddleTop({
     <div className="exchangemiddletop">
       <div></div>
       <div className="currency_info_box">
-        <div className="Currency__Info__Box">
+        <div className="Currency__Info_Box">
           <Avatar src={currencyIcon} />
           <div className="exchangemiddletop_currency_info">
             <p className="Currency__Info__Box_header">
@@ -160,7 +158,7 @@ function ExchangeMiddleTop({
             <p>{highPrice} USDT</p>
           </div>
         </div>
-        <div className="Currency__Info__Box">
+        <div className="Currency__Info_box">
           <div className="currencyUpdate">
             <p className="Currency__Info__Box_header">Volume</p>
             <p>{volumePrice} USDT</p>
@@ -171,5 +169,6 @@ function ExchangeMiddleTop({
     </div>
   );
 }
+
 
 export default ExchangeMiddleTop;

@@ -3,7 +3,6 @@
   display: flex;
 }
 .middle__widgets{
-  border-right: 1px solid lightgray;
   overflow-y: scroll;
   overflow-x: unset;
   position: relative;

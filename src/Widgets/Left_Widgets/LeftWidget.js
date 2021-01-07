@@ -23,6 +23,11 @@ function LeftWidget({RightWidgetMessage}) {
     if ('submit')
         history.push('/exchange')
   }
+  const pricePage = (e) => {
+    e.preventDefault();
+    if ('submit')
+        history.push('/price')
+  }
 
   return (
     <div className="leftwidget">
@@ -43,7 +48,7 @@ function LeftWidget({RightWidgetMessage}) {
           </div>
 
           <div className="leftWidgetOption">
-            <div className="left_widget_middle_option">
+            <div className="left_widget_middle_option" type="submit" onClick={pricePage}>
               <AttachMoneyRoundedIcon className="left_widget_middle_option_icon"/>
               <p>Price</p>
             </div>

@@ -1,5 +1,31 @@
 
-.feedbox{
+
+/* Ripple Out */
+/*
+@-webkit-keyframes feedbox {
+        100% {
+          top: -12px;
+          right: -12px;
+          bottom: -12px;
+          left: -12px;
+          opacity: 0;
+        }
+      }
+      @keyframes feedbox {
+        100% {
+          top: -12px;
+          right: -12px;
+          bottom: -12px;
+          left: -12px;
+          opacity: 0;
+        }
+      }
+      .feedbox {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        position: relative;
         border-radius: 30px;
         width: 320px;
         height: 330px;
@@ -9,12 +35,75 @@
         flex-wrap: wrap;
         flex: auto;
         object-fit: contain;
-
-}
-.feedbox:hover{
-        transition: 0.3s;
         cursor: pointer;
-}
+      }
+      .feedbox:before {
+        content: '';
+        position: absolute;
+        border: #e1e1e1 solid 6px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 20px;
+        left: 0;
+        -webkit-animation-duration: 2s;
+        animation-duration: 0.6s;
+      }
+      .feedbox:hover:before, .feedbox:focus:before, .feedbox:active:before {
+        -webkit-animation-name: feedbox;
+        animation-name: feedbox;
+      }
+
+
+
+
+
+
+      /* Pulse Shrink */
+@-webkit-keyframes feedbox {
+        to {
+          -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+        }
+      }
+      @keyframes feedbox {
+        to {
+          -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+        }
+      }
+      .feedbox {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        border-radius: 30px;
+        width: 320px;
+        height: 330px;
+        margin-top: 30px;
+        box-shadow: 0px 10px 50px lightgray;
+        transition: 1s;
+        flex-wrap: wrap;
+        flex: auto;
+        object-fit: contain;
+        cursor: pointer;
+      }
+      .feedbox:hover, .feedbox:focus, .feedbox:active {
+        -webkit-animation-name: feedbox;
+        animation-name: feedbox;
+        -webkit-animation-duration: 0.3s;
+        animation-duration: 0.3s;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;
+      }
+
+
+
+
 .currencyHeader{
         display: flex;
         justify-content: space-around;

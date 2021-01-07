@@ -1,9 +1,7 @@
 .logo{
         height: 50px;
     }
-    .Smallleftwidget{
-            max-width: 300px;
-    }
+
     
     /*        overflow-y: scroll;
             scroll-behavior: smooth;
@@ -18,16 +16,16 @@
     .SmallleftWidgetOption{
         margin-left: 20px;
     }
-    .Smallleftwidget{
+    .pSmallleftwidget{
         overflow-y: scroll;
         overflow-x: unset;
         scrollbar-width: none;
         -ms-overflow-style: none;
         height: 93vh;
-        width: 150px;
+        width: 200px;
     
     }
-    .Smallleftwidget::-webkit-scrollbar{
+    .pSmallleftwidget::-webkit-scrollbar{
         display: none;
     }
     .SmallleftSidebar{
@@ -41,9 +39,8 @@
         display: flex;
         align-items: center;
         border-radius: 20px;
-        transition: 0.3s;
         color: gray;
-    
+        transition: 0.5s;
     }
     .Smallleft_widget_middle_option:hover{
         cursor: pointer;
@@ -51,7 +48,8 @@
         transition: 0.1s;
         color: blue;
         transform: scale(1.07);
-    
+        width: 100px;
+        transition: 0.5s;
     }
     .Smallleft_widget_middle_option_icon.MuiSvgIcon-root{
         margin-right: 20px;  

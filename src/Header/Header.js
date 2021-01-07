@@ -59,7 +59,7 @@ function Header({ profilrPic }) {
   }));
 
   const classes = useStyles();
-  const [currency, setCurrency] = React.useState("");
+  const [currency, setCurrency] = React.useState("Eng/BTC");
   const handleChange = (event) => {
     setCurrency(event.target.value);
   };
