@@ -28,6 +28,21 @@ function SmallRightWidget() {
     if ('submit')
         history.push('/price')
   }
+  const walletPage = (e) => {
+    e.preventDefault();
+    if ('submit')
+        history.push('/wallet')
+  }
+  
+  const promotionPage = (e) => {
+    e.preventDefault();
+    if ('submit')
+        history.push('/promotionpage')
+  }
+
+
+
+
   return (
     <div className="Smallleftwidget">
       <div className="SmallleftSidebar">
@@ -45,17 +60,17 @@ function SmallRightWidget() {
             </div>
 
             <div className="SmallleftWidgetOption">
-              <Button className="Smallleft_widget_middle_option">
-                <AttachMoneyRoundedIcon className="Smallleft_widget_middle_option_icon" type="submit" onClick={pricePage}/>
+              <Button className="Smallleft_widget_middle_option" >
+                <AttachMoneyRoundedIcon className="Smallleft_widget_middle_option_icon" />
               </Button>
             </div>
             <div className="SmallleftWidgetOption">
-              <Button className="Smallleft_widget_middle_option">
+              <Button className="Smallleft_widget_middle_option" type="submit" onClick={walletPage}>
                 <AccountBalanceWalletRoundedIcon className="Smallleft_widget_middle_option_icon" />
               </Button>
             </div>
             <div className="SmallleftWidgetOption">
-              <Button className="Smallleft_widget_middle_option">
+              <Button className="Smallleft_widget_middle_option" type='submit' onClick={promotionPage}>
                 <TrendingUpRoundedIcon className="Smallleft_widget_middle_option_icon" />
               </Button>
             </div>

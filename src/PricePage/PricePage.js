@@ -10,8 +10,13 @@ import Select from "@material-ui/core/Select";
 import InputBase from "@material-ui/core/InputBase";
 import PricePageCategory from "./PricePageCategory";
 import PricePageBodyBottomFeed from "./PricePageBodyBottomFeed";
+import LeftWidget from './LeftWidget'
+import { useHistory } from "react-router-dom";
+import PricePageFeedInfo from './PricePageFeedInfo'
 
 function PricePage() {
+
+  const history = useHistory();
   const BootstrapInput = withStyles((theme) => ({
     input: {
       borderRadius: 5,
@@ -53,7 +58,7 @@ function PricePage() {
   }));
 
   const classes = useStyles();
-  const [userChoose, setUserChoose] = React.useState("");
+  const [userChoose, setUserChoose] = React.useState("Market Cap");
   const handleChange = (event) => {
     setUserChoose(event.target.value);
   };
@@ -65,9 +70,15 @@ function PricePage() {
     setInput("");
   };
 
+  const PricePageFeedInfo = (e) => {
+    e.preventDefault();
+    if ('submit')
+        history.push('/pricepagefeedinfo')
+  }
+
   return (
     <div className="pricepage">
-      <SmallLeftWidget />
+      <LeftWidget />
       <div className="price__page__body">
         <div className="price__page__body_header">
           <div className="price__page__body_header_right">
@@ -86,7 +97,7 @@ function PricePage() {
           </div>
           <div className="price__page__body_header_left">
             <img
-              src="https://pbs.twimg.com/media/ErDvCPKUUAAP2bQ?format=png&name=small"
+              src="https://pbs.twimg.com/media/ErJ60TyVQAAeWfI?format=png&name=small"
               alt=""
             />
           </div>
@@ -108,11 +119,11 @@ function PricePage() {
                 input={<BootstrapInput />}
               >
                 <MenuItem value="Market Cap">Market Cap</MenuItem>
-                <MenuItem value={1}>Eng/USD</MenuItem>
-                <MenuItem value={2}>Eng/BTC</MenuItem>
-                <MenuItem value={3}>Eng/INR</MenuItem>
-                <MenuItem value={4}>Eng/EUR</MenuItem>
-                <MenuItem value={5}>Eng/BDT</MenuItem>
+                <MenuItem value={'A - Z'}>A-Z</MenuItem>
+                <MenuItem value={'Eng/BTC'}>Eng/BTC</MenuItem>
+                <MenuItem value={'BTC/INR'}>BTC/INR</MenuItem>
+                <MenuItem value={"DEMO"}>Eng/EUR</MenuItem>
+                <MenuItem value={"demo"}>Eng/BDT</MenuItem>
               </Select>
             </FormControl>
           </div>
@@ -143,7 +154,7 @@ function PricePage() {
             <div className="price__page__bodyBottom_header_container">
               <div className="MarketCapVolume">
                 <div className="marketCap">
-                  <p>Market Cap</p>
+                  <p>{userChoose}</p>
                 </div>
                 <div className="volume">
                   <p>Volume</p>
@@ -154,8 +165,10 @@ function PricePage() {
               <h3>This will be the graph</h3>
             </div>
           </div>
-          <div className="price__page__bodyBottom_body">
-          <PricePageBodyBottomFeed
+          <div className="price__page__bodyBottom_body"               type='submit'
+              onClick={PricePageFeedInfo}>
+            <PricePageBodyBottomFeed
+
               currencyIcon="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/BTC_Logo.svg/2000px-BTC_Logo.svg.png"
               currencyName="Bitcoin"
               currencySymble="BTC"

@@ -1,0 +1,37 @@
+.pricepagefeedinfo{
+        display: flex;
+        position: fixed;
+}
+.PricePageFeedMiddle{
+        padding: 30px 60px;
+        overflow-y: scroll;
+        overflow-x: unset;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        height: 93vh;
+}
+.PricePageFeedMiddle::-webkit-scrollbar{
+        display: none;
+    }
+.pricepagefeedinfo_widget_header_left{
+        margin-right: 200px;
+}
+.pricepagefeedinfo_widget_header{
+        padding: 10px 20px;
+        display: flex;
+}
+.pricepagefeedinfo_rateBox_header{
+        justify-content: space-between;
+}
+.pricepagefeedinfo_widget{
+        overflow-y: scroll;
+        overflow-x: unset;
+        position: relative;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        height: 93vh;
+        width: 500px;
+}
+.pricepagefeedinfo_widget::-webkit-scrollbar{
+        display: none;
+}

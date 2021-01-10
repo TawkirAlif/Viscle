@@ -1,0 +1,152 @@
+.walletmiddleheader{
+        margin: 0px 50px;
+        padding: 0px 30px;
+        margin-top: 25px;
+        max-width: 100%;
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+        border-radius: 20px;
+        box-shadow: 0px 10px 50px rgb(232, 232, 232);
+
+}
+.wallet__middle__header__header_left>h4{
+        cursor: pointer;
+}
+.wallet__middle__header__header__middle_header_left>h1{
+        cursor: pointer;
+}
+.wallet__middle__header__header__middle_bottom>p{
+        cursor: pointer;
+}
+.wallet__middle__header__header__middle_header_right>p{
+        cursor: pointer;
+}
+.wallet__middle__header__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between ;
+        padding: 10px 25px;
+}
+.wallet__middle__header__header_bottom{
+        margin-bottom: 30px;
+}
+.wallet__middle__header__header_right>Button{
+        padding: 10px;
+        font-size: small;
+        align-items: center;
+        text-transform: initial;
+        justify-content: space-around;
+        width: 130px;
+        height: 50px;
+        margin-right: 10px;
+        border-radius: 10px;
+        border: 1px solid rgb(229, 229, 229);
+}
+.wallet__middle__header__header_right>Button:hover{
+        background-color: rgb(28, 104, 255);
+        color: white;
+}
+.wallet__middle__header__header__middle_header{
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+}
+.wallet__middle__header__header__middle_bottom{
+        padding: 0 20px;
+        margin-top: -30px;
+        font-size: 20px;
+        color: gray;
+}
+.wallet__middle__header__header__middle_header_right>p{
+        margin-left: 20px;
+        padding: 3px 5px;
+        border-radius: 20px;
+        font-weight: 500;
+        background-color: orange;
+        color: white;
+        cursor: pointer;
+}
+.wallet__middle__header__header_bottom{
+        padding: 0 20px;
+}
+.balance__box__left{
+    padding: 0 10px;
+    margin-top: -45px;
+}
+.wallet__middle__header__header_left_left{
+        display: flex;
+        justify-content: space-between;
+}
+.wallet__middle__header__header_balanceBox{
+        border: 1.5px solid rgb(239, 239, 239);
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        min-width: 240px;
+        max-width: 280;
+        height: 120px;
+        cursor: pointer;
+}
+.balance__box{
+        display: flex;
+}
+.wallet__middle__header__header_balancebox{
+        border: 1.5px solid rgb(239, 239, 239);
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        min-width: 240px;
+        max-width: 280;
+        height: 120px;
+        margin-left: 30px;
+        cursor: pointer;
+}
+.balance__name{
+        color: gray;
+        font-size: small;
+        margin-top: -8px;
+}
+.wallet__middle__header__header_balanceBox_balance{
+        margin-top: -10px;
+}
+.wallet__middle__header__header_balanceBox_balance_usd{
+        margin-top: -12px;
+        color: #1be01b;
+}
+.wallet__middle__header__header_bottom_rateBox{
+        max-width: 400px;
+        width: 250px;
+        padding: 0 20px;
+        color: gray;
+        font-size: small;
+        font-weight: 600;
+}
+.exchangeRateBox>Button{
+        max-width: 100%;  
+        padding: 5px;
+        border-radius: 20px;
+        background-color: rgb(145, 55, 255);
+        cursor: pointer;
+        width: 40%;
+        transition: 1s;
+
+}
+.assetRateBox>Button{
+    max-width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    background-color:rgb(26, 148, 255);
+    cursor: pointer;
+    width: 100%;
+    transition: 1s;
+}
+.exchangeRateBox>Button:hover{
+        min-width: 100%;
+        transition: 1s;
+        background-color: rgb(145, 55, 255);
+}
+.assetRateBox>Button:hover{
+        transition: 1s;
+        width: 40%;
+        background-color:rgb(26, 148, 255);
+}

@@ -11,10 +11,20 @@ import ExchangePage from './ExchangePage/ExchangePage'
 import LeftWidget from './Widgets/Left_Widgets/LeftWidget.js'
 import Header from './Header/Header'
 import Login from './Login/Login'
+import PromotionPage from './PromotionPage/PromotionPage'
 import PricePage from './PricePage/PricePage'
 import MiddleWidget from "./Widgets/Middle_Widgets/Middle_Widget";
 import MiddleFeed from "./Widgets/Middle_Widgets/MiddleFeed.js";
 import RightWidget from './Widgets/Right_Widgets/RightWidget';
+import WalletPage from './WalletPage/Wallet'
+import PricePageFeedInfo from './PricePage/PricePageFeedInfo'
+
+
+
+
+
+
+
 function App() {
 
 
@@ -120,6 +130,16 @@ function App() {
 
                 <Route path='/price'>
                     <PricePage />
+                </Route>
+
+                <Route path='/wallet'>
+                    <WalletPage />
+                </Route>
+                <Route path='/pricepagefeedinfo'>
+                  <PricePageFeedInfo />
+                </Route>
+                <Route path='/promotionpage'>
+                  <PromotionPage />
                 </Route>
 
             </Switch>

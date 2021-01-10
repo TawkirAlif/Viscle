@@ -4,15 +4,13 @@
         width: 1150px;
         border-radius: 15px;
         cursor: pointer;
-        transition: 0.5s;
+        transition: 0.2s;
 
 }
 .price__page__bodyBottom_feed:hover{
-        transform: scale(1);
-        box-shadow: 0px 10px 50px lightgray;
-        margin-top: 5px;
-        margin-bottom: 10px;
-        transition: 0.5s;
+        box-shadow: 0px 10px 50px whitesmoke;
+        transition: 0.2s;
+        border: 1px solid rgb(0, 115, 255);
 }
 .price__page__bodyBottom_feed_container{
         width: 300px;
@@ -47,6 +45,9 @@
 }
 .empty{
         width: 60px;
+}
+.empty>.MuiSvgIcon-root{
+       color: aliceblue;
 }
 .pricepagebodybottomfeed{
         border-radius: 15px;

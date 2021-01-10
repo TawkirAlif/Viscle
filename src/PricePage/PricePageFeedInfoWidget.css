@@ -1,0 +1,104 @@
+.pricepagefeedinfo_rateBox{
+        padding: 0px 20px;
+        border-radius: 15px;
+        box-shadow: 0px 10px 50px lightgray;
+        margin-bottom: 30px;
+        width: 300px;
+        margin-left: 50px;
+        cursor: pointer;
+}
+
+
+
+
+@-webkit-keyframes pricepagefeedinfo_rateBox {
+        100% {
+          top: -12px;
+          right: -12px;
+          bottom: -12px;
+          left: -12px;
+          opacity: 0;
+        }
+      }
+      @keyframes pricepagefeedinfo_rateBox {
+        100% {
+          top: -12px;
+          right: -12px;
+          bottom: -12px;
+          left: -12px;
+          opacity: 0;
+        }
+      }
+      .pricepagefeedinfo_rateBox {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        position: relative;
+        flex: auto;
+        object-fit: contain;
+        cursor: pointer;
+        padding: 0px 20px;
+        border-radius: 15px;
+        box-shadow: 0px 10px 50px lightgray;
+        margin-bottom: 30px;
+        width: 300px;
+        margin-left: 50px;
+        cursor: pointer;
+
+      }
+      .pricepagefeedinfo_rateBox:before {
+        content: '';
+        position: absolute;
+        border: #e1e1e1 solid 6px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 15px;
+        left: 0;
+        -webkit-animation-duration: 2s;
+        animation-duration: 0.6s;
+      }
+      .pricepagefeedinfo_rateBox:hover:before, .pricepagefeedinfo_rateBox:focus:before, .pricepagefeedinfo_rateBox:active:before {
+        -webkit-animation-name: pricepagefeedinfo_rateBox;
+        animation-name: pricepagefeedinfo_rateBox;
+      }
+
+
+
+
+
+
+
+.pricepagefeedinfo__bottom_rateBox_left{
+        margin-left: 15px;
+}
+.pricepagefeedinfo__widget__bottom_rateBox_right{
+        margin-top: -15px;
+}
+.pricepagefeedinfo__widget__bottom_rateBox_left_symble{
+        margin-top: -15px;
+}
+.pricepagefeedinfo__widget__bottom_rateBox_right_amount{
+        margin-top: -25px;
+}
+.pricepagefeedinfo_widget_currency_box_avatars{
+        display: flex;
+        margin-top: -8px;
+        align-items: center;
+}
+.pricepagefeedinfo__widget__bottom_rateBox_right_p{
+        display: flex;
+        color: green;
+        align-items: center;
+}
+.pricepagefeedinfo_rateBox_header{
+        display: flex;
+        align-items: center;
+}
+.pricepagefeedinfo__widget__bottom_rateBox_rate{
+        height: 140px;
+        border: 1px solid blue;
+        margin-bottom: 20px;
+        border-radius: 5px;
+}

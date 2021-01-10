@@ -28,6 +28,11 @@ function LeftWidget({RightWidgetMessage}) {
     if ('submit')
         history.push('/price')
   }
+  const homePage = (e) => {
+    e.preventDefault();
+    if ('submit')
+        history.push('/app')
+  }
   const walletPage = (e) => {
     e.preventDefault();
     if ('submit')
@@ -45,7 +50,7 @@ function LeftWidget({RightWidgetMessage}) {
        <div className="left_widget_middle">
         <div classNmae="left_widget_middle_raw">
           <div className="leftWidgetOption">
-            <div className="left_widget_middle_option">
+            <div className="left_widget_middle_option" type="submit" onClick={homePage}>
               <WidgetsRoundedIcon className="left_widget_middle_option_icon" />
               <p>Home</p>
             </div>

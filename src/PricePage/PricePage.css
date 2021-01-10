@@ -11,9 +11,11 @@
         scrollbar-width: none;
         -ms-overflow-style: none;
         height: 93vh;
-        min-width: 1310px;
-        margin-left: 80px;
+        min-width: 950px;
       
+}
+.price__page__body_header{
+
 }
 
 .price__page__body::-webkit-scrollbar{
@@ -160,7 +162,7 @@
         -webkit-transform-origin: 0 100%;
         transform-origin: 0 100%;
         display: flex;
-        margin: 50px 200px;
+        margin: 50px 100px;
         padding: 20px;
         width: 900px;
         height: 250px;
