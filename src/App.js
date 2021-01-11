@@ -11,7 +11,10 @@ import ExchangePage from './ExchangePage/ExchangePage'
 import LeftWidget from './Widgets/Left_Widgets/LeftWidget.js'
 import Header from './Header/Header'
 import Login from './Login/Login'
-import PromotionPage from './PromotionPage/PromotionPage'
+import Activities from './ActivitiesPage/Activites'
+import PromotionSubPage from './PromotionPage/PromotionSubPage'
+import PromotionPageMain from'./PromotionPage/PromotionPageMain';
+import PromotionPage from './PromotionPage/PromotionSubPage'
 import PricePage from './PricePage/PricePage'
 import MiddleWidget from "./Widgets/Middle_Widgets/Middle_Widget";
 import MiddleFeed from "./Widgets/Middle_Widgets/MiddleFeed.js";
@@ -37,11 +40,12 @@ function App() {
         <Header profilrPic="https://avatars1.githubusercontent.com/u/73068865?s=120&v=4" />
       </div>
       {!user ? (
-        <Login />
+        <App />
       ) : (
         <>
           <Router>
-            <Switch>
+              <Switch>
+
               <Route path="/app">
               <div className="app__body">
                 <div className="left__widget">
@@ -139,7 +143,18 @@ function App() {
                   <PricePageFeedInfo />
                 </Route>
                 <Route path='/promotionpage'>
-                  <PromotionPage />
+                  <PromotionPageMain />
+                </Route>
+                <Route path='/promotionsubpage'>
+                  <PromotionSubPage />
+                </Route>
+
+                <Route path='/activities'>
+                  <Activities />
+                </Route>
+
+                <Route path='/'>
+                  <Login />
                 </Route>
 
             </Switch>

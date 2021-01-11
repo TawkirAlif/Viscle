@@ -43,6 +43,11 @@ function LeftWidget({RightWidgetMessage}) {
     if ('submit')
         history.push('/promotionpage')
   }
+  const Activities = (e) => {
+    e.preventDefault();
+    if ('submit')
+        history.push('/activities')
+  }
 
   return (
     <div className="leftwidget">
@@ -81,7 +86,7 @@ function LeftWidget({RightWidgetMessage}) {
             </div>
           </div>
           <div className="leftWidgetOption">
-            <div className="left_widget_middle_option">
+            <div className="left_widget_middle_option" type='submit' onClick={Activities}>
               <BrokenImageRoundedIcon className="left_widget_middle_option_icon"/>
               <p>Activites</p>
             </div>

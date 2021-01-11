@@ -39,6 +39,12 @@ function SmallRightWidget() {
     if ('submit')
         history.push('/promotionpage')
   }
+ 
+  const Activities = (e) => {
+    e.preventDefault();
+    if ('submit')
+        history.push('/activitiesx')
+  }
 
 
 
@@ -75,7 +81,7 @@ function SmallRightWidget() {
               </Button>
             </div>
             <div className="SmallleftWidgetOption">
-              <Button className="Smallleft_widget_middle_option">
+              <Button className="Smallleft_widget_middle_option" type="submit" onClick={Activities}>
                 <BrokenImageRoundedIcon className="Smallleft_widget_middle_option_icon" />
               </Button>
             </div>

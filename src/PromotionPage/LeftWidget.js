@@ -43,6 +43,11 @@ function LeftWidget({RightWidgetMessage}) {
     if ('submit')
         history.push('/promotionpage')
   }
+  const Activities = (e) => {
+    e.preventDefault();
+    if ('submit')
+        history.push('/activities')
+  }
 
   return (
     <div className="leftwidget">
@@ -75,15 +80,15 @@ function LeftWidget({RightWidgetMessage}) {
             </div>
           </div>
           <div className="leftWidgetOption">
-            <div className="left_widget_middle_option">
-              <TrendingUpRoundedIcon className="left_widget_middle_option_icon" type='submit' onClick={promotionPage}/>
+            <div className="left_widget_middle_option" type='submit' onClick={promotionPage}>
+              <TrendingUpRoundedIcon className="left_widget_middle_option_icon" />
               <p>Promotion</p>
             </div>
           </div>
           <div className="leftWidgetOption">
-            <div className="left_widget_middle_option">
+            <div className="left_widget_middle_option" type='submit' onClick={Activities}>
               <BrokenImageRoundedIcon className="left_widget_middle_option_icon"/>
-              <p>Activites</p>
+              <p>Activities</p>
             </div>
           </div>
           <div className="leftWidgetOption">

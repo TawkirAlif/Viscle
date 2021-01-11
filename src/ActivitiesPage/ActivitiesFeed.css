@@ -1,0 +1,55 @@
+.activitiesfeed_currencyInfo_box{
+        display: flex;
+}
+.activitiesfeed_left{
+        display: flex;
+        margin-top: 15px;
+        
+}
+.activitiesfeed_icon>.MuiSvgIcon-root{
+        margin-top: -3px;
+}
+.activitiesfeed_currencyInfo_box>p{
+        margin-top: 5px;
+        color: black;
+}
+.activitiesfeed_currencyInfo_box_avatar{
+        margin-right: 20px;
+        margin-top: -8px;
+}
+.activitiesfeed_icon{
+        margin-right: 15px;
+}
+
+.activitiesfeed_right{
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        width: 450px;
+        margin-top: 10px;
+}
+.activitiesfeed_ammount_date{
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+}
+.activitiesfeed_address_transaction{
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+}
+.activitiesfeed{
+        justify-content: space-between;
+        display: flex;
+        padding: 10px 20px;
+        align-items: center;
+        color: gray;
+        border-radius: 10px;
+        height: 60px;
+        padding-top: 10px;
+        cursor: pointer;
+}
+.activitiesfeed:hover{
+        border: 1px solid blue;
+        background-color: whitesmoke;
+}

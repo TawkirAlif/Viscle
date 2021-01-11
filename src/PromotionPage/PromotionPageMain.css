@@ -1,0 +1,156 @@
+.promotionpagemain{
+        display: flex;
+        position: fixed;
+}
+.PromotionPageMain_Middle{
+        overflow-y: scroll;
+        overflow-x: unset;
+        position: relative;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        height: 93vh;
+}
+.PromotionPageMain_Middle::-webkit-scrollbar{
+        display: none;
+      }
+
+
+.promotionpagemain_middle{
+        display: flex;
+}
+.promotionpagemain_middle_left_header{
+        padding: 0 40px;
+}
+.promotionpagemain_middle_left_header>h1{
+        font-size: 50px;
+        margin-top: -20px;
+}
+
+.promotionpagemain_middle__widget__top_messageBox{
+        width: 650px;
+        margin: 30px 40px;
+        padding: 10px 40px;
+        border-radius: 40px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+.promotionpagemain_middle__widget__top_messageBox_close>.MuiSvgIcon-root{
+     margin-left: 440px;
+     background-color: white;
+     border-radius: 999px;
+     font-size: 20px;
+     transition: 0.5s;
+     cursor: pointer;
+
+}
+.promotionpagemain_middle__widget__top_messageBox_close>.MuiSvgIcon-root:hover{
+    cursor: pointer;
+    color: red;
+    transition: 0.5s;
+    font-size: 25px;
+}
+.promotionpagemain_middle__widget__top_messageBox_close{
+        margin-top: 10px;
+        display: flex;
+        flex: 1;
+}
+.promotionpagemain_middle__widget__top_messageBox_time{
+        color: white;
+        font-weight: 600;
+}
+.promotionpagemain_middle__widget__top_messageBox_time>p{
+        width: 200px;
+}
+.promotionpagemain_middle__widget__top_messageBox_messageHeader{
+    color: white;
+    max-width: 300px;
+    
+}
+.promotionpagemain_middle__widget__top_messageBox_message{
+        color: white;
+        max-width: 300px;
+        font-weight: 600;
+        margin-bottom: 20px;
+}
+.promotionpagemain_middle__widget__top_messageBox_button>Button{
+        background-color: white;
+        padding: 10px 0px;
+        transition: 0.5s;
+        margin-bottom: 150px;
+        width: 130px;
+        padding: 10px 0px;
+        text-transform: initial;
+        font-size: medium;
+
+}
+.promotionpagemain_middle__widget__top_messageBox_button>Button:hover{
+        background-color: white;
+        width: 150px;
+        padding: 10px 0px;
+        transition: 0.5s;
+}
+
+.middle__widget__top_messageBox_active{
+        display: flex;
+}
+.middle__widget__top_messageBox_Active1{
+        width: 30px;
+        padding: 2px;
+        margin-right:5px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        background-color: white;
+        cursor: pointer;
+        transition: 0.5s;
+}
+.middle__widget__top_messageBox_Active2{
+        width: 30px;
+        padding: 2px;
+        margin-right:5px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        background-color: rgb(212, 171, 222);
+        cursor: pointer;
+        transition: 0.5s;
+        
+}
+.middle__widget__top_messageBox_Active1:hover{
+        transition: 0.5s;
+        width: 50px;
+        cursor: pointer;
+}.middle__widget__top_messageBox_Active2:hover{
+        width: 50px;
+        transition: 0.5s;
+        cursor: pointer;
+}
+.promotionpagemain_middle_right{
+        margin-top: 50px;
+}
+.promotionpagemain_Bottom_header{
+        padding: 0 40px;
+}
+.promotionpagemain_Bottom_Bottom{
+        width: 1000px;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px 100px;
+        margin-bottom: 50px;
+}
+.promotionpagemain_Bottom_flex-end{
+        display: flex;
+        padding: 0 100px;
+}
+.promotionpagemain_Bottom_pageCountBox>p{
+        border: 1px solid lightgray;
+        align-items: center;
+        padding: 8px 13px;
+        margin-left: 10px;
+        border-radius: 10px;
+        font-weight: 600px;
+        cursor: pointer;
+
+}
+

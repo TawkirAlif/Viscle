@@ -1,0 +1,161 @@
+.activites{
+        display: flex;
+        position: fixed;
+        width: 100%;
+        transition: 0.5s;
+}
+.activites_middle{
+        overflow-y: scroll;
+        overflow-x: unset;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        padding: 10px 10px;
+        height: 93vh;  
+        width: 100%;
+        transition: 0.5s;
+
+}
+
+
+.activites_middle::-webkit-scrollbar{
+        display: none;
+    }
+.activities_left_widget_form_icon{
+        align-items: center;
+        display: flex;
+        height: 25px;
+}
+.activities_left_widget_form_icon>.MuiSvgIcon-root{
+     color: gray;
+}
+.activites_middle_widget_top{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+        margin-bottom:20px;
+}
+.top_activites_middle_widget_top>Button{
+        text-transform: initial;
+        padding: 10px 20px;
+        margin-left: 20px;
+        border-radius: 15px;
+        color: gray;
+}
+.top_activites_middle_widget_top>Button:hover{
+        color: blue;
+}
+.activities_left_widget_bottom_header_top{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        color: rgb(106, 106, 106);
+}
+.activities_right_widget{
+        margin-right: 20px;
+        position: relative;
+        width: 0px;
+        margin-top: 2000px;
+        transition: 0.5s;
+
+}
+
+.activities_right_widget__widget__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 10px;
+}
+
+.activities_right_widget__widget__header_avatar{
+        cursor: pointer;
+}
+
+.activities_right_widget__widget__header_close{
+        margin-top: 5px;
+        cursor: pointer;
+        margin-right: 20px;
+}
+.activities_right_widget__widget__header_avatar{
+        margin-left: -20px;
+}
+.activities_right_widget__widget__header_info{
+        margin-left: -50px;
+}
+.activities_right_widget_coin_name{
+        margin-top: -10px;
+}
+
+
+.activities_right_widget_2nd_top{
+        padding: 10px 20px;
+        display: flex ;      
+        align-items: center;
+}
+.activities_right_widget_2nd_top>p{
+        padding: 3px 5px;
+        margin-left: 15px;
+        border-radius: 15px;
+        font-weight: 600;
+        color: white;
+        background-color: rgb(26, 195, 26);
+}
+.activities_right_widget_2nd_bottom>p{
+        margin-top: -25px;
+        padding: 0 20px;
+}
+.activities_right_widget_2nd_bottom{
+        border-bottom: 1px solid lightgray;
+}
+.activities_right_widget_3rd{
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        padding: 0 20px;
+        border-bottom: 1px solid lightgray;
+}
+.activities_right_widget_3rd_right{
+        margin-left: 10px;
+
+}
+.activities_right_widget_3rd>.MuiSvgIcon-root{
+        padding: 5px;
+        background-color: lightgray;
+        border-radius: 999px;
+}
+.activities_right_widget_3rd_right>p{
+        margin-top: -20px;
+        padding: 4px 8px;
+        border-radius: 20px;
+        font-size: medium;
+        background-color: rgb(209, 255, 209);
+        color: rgb(31, 200, 31);
+}
+
+
+.activities_right_widget_4rd{
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        padding: 0 20px;
+        border-bottom: 1px solid lightgray;
+}
+.activities_right_widget_4rd>.MuiSvgIcon-root{
+        padding: 5px;
+        background-color: lightgray;
+        border-radius: 999px;
+}
+.activities_right_widget_4rd_right{
+        margin-left: 20px;
+        font-size: small;
+        color: gray;
+
+}
+.activities_right_widget_4rd_right>p{
+        margin-top: -15px;
+        padding: 4px 0px;
+        border-radius: 20px;
+        font-size: medium;
+
+}
