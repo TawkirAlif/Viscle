@@ -1,0 +1,229 @@
+.login{
+        display: flex;
+        position: fixed;
+   }
+   .login_left{
+           background: linear-gradient(20deg , #6b12f1, #c48dff );
+           max-width: 550px;
+           height: 100vh;
+           color: white;
+           padding-left: 50px;
+   }
+   .login_left>img{
+           margin-top: 30px;
+   }
+   .login_left>h1{
+           font-size: 60px;
+   }
+   .login_image_box>img{
+           height: 800px;
+           margin-left: -300px;
+           margin-top: -120px;
+   }
+   .signin_right{
+           width: 900px;
+           height: 100vh;
+           transition: 0.6s;
+   }
+   .singup_right{
+           width: 900px;
+           height: 100vh;
+           transition: 0.6s;
+   }
+   
+   
+   
+   
+   .already_have_an_account{
+           align-items: center;
+           display: flex;
+           margin-left: 50px;
+   }
+   .already_have_an_account>p1{
+           margin-left: 20px;
+           cursor: pointer;
+           color: blue;
+           font-weight: 600;
+   }
+   .already_have_an_account>p1:hover{
+      text-decoration: underline;
+   
+   }
+   
+   .login_container{
+     display: flex;
+     flex-direction: column;
+     background-color: white;
+     width: 500px;
+     height: 650px;
+     margin: 70px 200px;
+     min-width: 500px;
+     align-items: center;
+     padding: 0px;
+     color: black;
+     border-radius: 20px;
+     box-shadow: 0px 10px 50px rgb(232, 232, 232)
+   }
+   .loginPageImg{
+     height: 225px;
+     width: 225px;
+   }
+   
+   .input-field{
+     max-width: 380px;
+     width: 380px;
+     background-color: #f0f0f0;
+     margin: 10px 0;
+     height: 55px;
+     border-radius: 10px;
+     display: grid;
+     grid-template-columns: 15% 85%;
+     padding: 0 0.4rem;
+     position: relative;
+   }
+   .input-field i {
+     text-align: center;
+     line-height: 55px;
+     color: #acacac;
+     transition: 0.5s;
+     font-size: 1.8rem;
+     align-items: center;
+   }
+   .input-field input {
+     background: none;
+     outline: none;
+     border: none;
+     line-height: 1;
+     font-weight: 600;
+     font-size: 1.1rem;
+     color: #333;
+   }
+   .input-field input::placeholder {
+     color: #aaa;
+     font-weight: 500;
+   }
+   
+   .verifybox{
+           cursor: pointer;
+           display: flex;
+           align-items: center;
+           padding: 0px 10px;
+           border: 1px solid lightgray;
+           border-radius: 10px;
+           width: 370px;
+   }
+   .verifybox>.MuiSvgIcon-root{
+        color: #002afc;
+   }
+   .verifybox>p{
+           margin-left: 100px;
+           font-weight: 900;
+           color: gray;
+   }
+   .login_container>h1{
+           width: 240px;
+           margin-top: 60px;
+           margin-left: -150px;
+   }
+   .user-input-box{
+     width: 300px;
+   }
+   .login_singInButton>Button{
+     background-color: rgb(64, 161, 252);
+     height: 40px;
+     width: 395px;
+     border-radius: 10px;
+     color: white;
+     font-size: 20px;
+     transition: 0.5s;
+     cursor: pointer;
+     margin-top: 20px;
+     text-transform: initial;
+   }
+   .login_singInButton>Button:hover{
+     background-color:rgb(88, 185, 255);
+   }
+   .Forgottenpassword{
+     color: rgb(83, 182, 248);
+     cursor: pointer;
+     margin-bottom: 30px;
+     margin-top: 10px;
+     margin-left: 235px;
+   }
+   .Forgottenpassword:hover{
+     text-decoration: underline;
+   }
+   .login_singUpButton{
+       display: flex;
+       align-items: center;
+       margin: 0 100px;
+   }
+   .login_singUpButton>p{
+       margin-left: 20px;
+       align-items: center;
+   }
+   .login_singUpButton>p2{
+           color: blue;
+           cursor: pointer;
+           font-weight: 600;
+   }
+   .login_singUpButton>p2:hover{
+           text-decoration: underline;
+   }
+   
+   .social-media {
+     display: flex;
+     justify-content: center;
+     margin-top: 10px;
+   }
+   .social-icon-facebook {
+     height: 46px;
+     width: 46px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 0.45rem;
+     color: #333;
+     text-decoration: none;
+     transition: 0.3s;
+     color: #4481eb;
+   }
+   .social-icon-twitter {
+     height: 46px;
+     width: 46px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 0.45rem;
+     color: #333;
+     text-decoration: none;
+     transition: 0.3s;
+     color: #23aff5;
+   }
+   .social-icon-instagram {
+     height: 46px;
+     width: 46px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 0.45rem;
+     color: #333;
+     text-decoration: none;
+     font-size: 1.8rem;
+     transition: 0.3s;
+     color: #f11969;
+   }
+   .social-icon-linkedin {
+     height: 46px;
+     width: 46px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 0.45rem;
+     color: #333;
+     text-decoration: none;
+     transition: 0.3s;
+     color: #4481eb;
+   }
+   
+   

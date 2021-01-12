@@ -30,7 +30,7 @@ function ExchangeMiddleTop({
       minWidth: 70,
       maxWidth: 70,
       padding: "10px 26px 10px 12px",
-      marginLeft: "20px",
+      marginLeft: "30px",
       transition: theme.transitions.create(["border-color", "box-shadow"]),
       // Use the system font instead of the default Roboto font.
       fontFamily: [

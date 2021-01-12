@@ -7,6 +7,7 @@ import {
   useRouteMatch,
   useParams
 } from "react-router-dom";
+import SingInPage from './SignInPage/SignInPage'
 import ExchangePage from './ExchangePage/ExchangePage'
 import LeftWidget from './Widgets/Left_Widgets/LeftWidget.js'
 import Header from './Header/Header'
@@ -36,17 +37,19 @@ function App() {
 
   return (
     <div className="app">
-      <div className="app__header">
-        <Header profilrPic="https://avatars1.githubusercontent.com/u/73068865?s=120&v=4" />
-      </div>
+
       {!user ? (
-        <App />
+        <Login />
       ) : (
         <>
           <Router>
               <Switch>
 
               <Route path="/app">
+
+              <div className="app__header">
+                <Header profilrPic="https://avatars1.githubusercontent.com/u/73068865?s=120&v=4" />
+              </div>
               <div className="app__body">
                 <div className="left__widget">
                 <LeftWidget RightWidgetMessage="Send Cryto to an Email Address" />
@@ -129,32 +132,53 @@ function App() {
                 </Route>
                 
                 <Route path='/exchange'>
+                <div className="app__header">
+                  <Header profilrPic="https://avatars1.githubusercontent.com/u/73068865?s=120&v=4" />
+                </div>
                     <ExchangePage />
                 </Route>
 
                 <Route path='/price'>
+                <div className="app__header">
+                  <Header profilrPic="https://avatars1.githubusercontent.com/u/73068865?s=120&v=4" />
+                </div>
                     <PricePage />
                 </Route>
 
                 <Route path='/wallet'>
+                <div className="app__header">
+                  <Header profilrPic="https://avatars1.githubusercontent.com/u/73068865?s=120&v=4" />
+                </div>
                     <WalletPage />
                 </Route>
                 <Route path='/pricepagefeedinfo'>
+                <div className="app__header">
+                 <Header profilrPic="https://avatars1.githubusercontent.com/u/73068865?s=120&v=4" />
+                </div>
                   <PricePageFeedInfo />
                 </Route>
                 <Route path='/promotionpage'>
+                <div className="app__header">
+                <Header profilrPic="https://avatars1.githubusercontent.com/u/73068865?s=120&v=4" />
+                </div>
                   <PromotionPageMain />
                 </Route>
                 <Route path='/promotionsubpage'>
+                <div className="app__header">
+                  <Header profilrPic="https://avatars1.githubusercontent.com/u/73068865?s=120&v=4" />
+                </div>
                   <PromotionSubPage />
                 </Route>
 
                 <Route path='/activities'>
+                <div className="app__header">
+                  <Header profilrPic="https://avatars1.githubusercontent.com/u/73068865?s=120&v=4" />
+                </div>
                   <Activities />
                 </Route>
 
                 <Route path='/'>
-                  <Login />
+                  <SingInPage />
                 </Route>
 
             </Switch>

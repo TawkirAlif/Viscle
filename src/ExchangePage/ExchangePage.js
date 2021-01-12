@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@material-ui/core";
 import "./ExchangePage.css";
-import SmallLeftWidget from "./SmallLeftWidget";
+import LeftWidget from "./LeftWidget";
 import ExchangeMiddleTop from "./ExchangeMiddleTop";
 import ExchangeMiddleBottomLeft from './ExchangeMiddleBottomLeft'
 import ExchangeMiddleBottomLeftBottom from './ExchangeMiddleBottomLeftBottom'
@@ -11,7 +11,7 @@ import ExchengerMiddleBottomRightBuySellBox from './ExchengerMiddleBottomRightBu
 function ExchangePage() {
   return (
     <div className="exchangepage">
-      <SmallLeftWidget />
+      <LeftWidget />
       <div className="exchanemiddle">
         <div className="exchangemiddle_top">
           <ExchangeMiddleTop

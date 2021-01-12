@@ -1,14 +1,16 @@
 
 .exchangemiddlebottomleft{
         width: fit-content;
+        max-width: 750px;
 }
 .exchangemiddle_bottom_left{
         border: 1px solid lightgray;
         width: 820px;
         border-radius: 30px;
+        max-width: 750px;
 }
 .Exchange_Middle_Bottom_Left{
-        max-width: 830px;
+        max-width: 800px;
 }
 .Exchange_Middle_Bottom_Left_header{
         padding: 20px;
@@ -109,7 +111,7 @@
 
 .exchangemiddle_bottom_left_middle_body_insight_box{
         height: 500px;
-        width: 700px;
+        width: 628px;
         cursor: pointer;
         object-fit: contain; 
 }
@@ -146,7 +148,7 @@
         border: 0.3px solid lightgray;
         border-right: none;
         border-left: none;
-        width: 820px;
+        width: 750px;
 }
 .Exchange_Middle_Bottom_Left_Bottom>p{
         padding: 0 22px ;
