@@ -1,8 +1,12 @@
 
+.rightwidget{
+    position: relative;
+}
+
 .user__total__Balance{
         width: 300px;
         padding: 5px;
-        margin: 25px 70px;
+        margin: 25px 100px;
         background-color: white;
         border-radius: 20px;
         box-shadow: 0px 10px 50px lightgray;

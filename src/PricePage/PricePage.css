@@ -2,7 +2,6 @@
         display: flex;
         position: fixed;
         width: 100%;
-        border: 1px solid green;
 }
 .price__page__body{
         overflow-y: scroll;
@@ -13,9 +12,6 @@
         height: 93vh;
         min-width: 950px;
       
-}
-.price__page__body_header{
-
 }
 
 .price__page__body::-webkit-scrollbar{

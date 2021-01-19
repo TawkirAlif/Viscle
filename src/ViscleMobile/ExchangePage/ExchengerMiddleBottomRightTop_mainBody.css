@@ -1,0 +1,32 @@
+.topRate{
+        display: flex;
+        justify-content: space-around;
+        height: 40px;
+        border-bottom: 0.5px solid lightgray;
+}
+.ExchengerMiddleBottomRightTop_mainBody_toprate_p{
+        width: 240px;
+}
+.ExchengerMiddleBottomRightTop_mainBody_toprate_p>p{
+        margin-left: 10px;
+        color: gray;
+        padding: -10px 0;
+        font-size: small;
+
+}
+.ExchengerMiddleBottomRightTop_mainBody_toprate_P{
+        color: rgb(246, 93, 93);
+        margin-left: 10px;
+        width: 120px;
+        background-color: rgb(250, 201, 201);
+
+}
+.ExchengerMiddleBottomRightTop_mainBody_toprate_price{
+        background-color: rgb(251, 193, 193);
+        width: 230px;
+}
+.ExchengerMiddleBottomRightTop_mainBody_toprate_price>p{
+        margin-left: 20px;
+        color: rgb(255, 74, 74);
+        font-size: small;
+}

@@ -1,4 +1,5 @@
 import './App.css';
+import ViscleMobile from './ViscleMobile/ViscleMobile'
 import {
   BrowserRouter as Router,
   Switch,
@@ -22,6 +23,13 @@ import MiddleFeed from "./Widgets/Middle_Widgets/MiddleFeed.js";
 import RightWidget from './Widgets/Right_Widgets/RightWidget';
 import WalletPage from './WalletPage/Wallet'
 import PricePageFeedInfo from './PricePage/PricePageFeedInfo'
+import MobileExchange from './ViscleMobile/MobileExchange'
+import MobileBuySell from './ViscleMobile/MobileBuySell'
+import Sidebar from './ViscleMobile/Widget/Sidebar/Sidebar'
+import MobileHeader from './ViscleMobile/Header/Header'
+import MainPage from './ViscleMobile/AppBody/MainPage'
+import BottomNavigation from './ViscleMobile/BottomNavigation/BottomNavigation'
+import Exchange from './ViscleMobile/MobileExchange'
 
 
 
@@ -32,11 +40,12 @@ import PricePageFeedInfo from './PricePage/PricePageFeedInfo'
 function App() {
 
 
+
   const user = 'tawkir';
 
 
   return (
-    <div className="app">
+    <div className="app" id='appbody'>
 
       {!user ? (
         <Login />
@@ -44,6 +53,7 @@ function App() {
         <>
           <Router>
               <Switch>
+                
 
               <Route path="/app">
 
@@ -177,9 +187,25 @@ function App() {
                   <Activities />
                 </Route>
 
+                <Route path='/visclemobile'>
+                  <ViscleMobile />
+                </Route>
+                <Route path='/mobileexchange'>
+                  <MobileExchange currencyIcon='https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/BTC_Logo.svg/2000px-BTC_Logo.svg.png'
+                    timeInfo='24h'
+                    trendPercent='2.34'
+                    topRate= {true}
+                  />
+                </Route>
+                                
+                <Route path='/mobilebuysell'>
+                  <MobileBuySell />
+                </Route>
+
                 <Route path='/'>
                   <SingInPage />
                 </Route>
+
 
             </Switch>
           </Router>

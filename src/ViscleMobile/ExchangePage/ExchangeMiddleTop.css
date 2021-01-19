@@ -1,0 +1,95 @@
+.exchangemiddletop{
+        width:1100px;
+        height: 100px;
+        padding: 20px;
+        margin-left: 25px;
+        justify-content: space-between;
+        max-height: 100px;
+        display: flex;
+
+}
+
+.currency_info_box{
+        display: flex;
+        height: fit-content;
+        border-radius: 20px;
+        min-width: 300px;
+        border: 0.5px solid lightgray;
+        box-shadow: 0px 10px 50px lightgray;
+}
+.Currency__Info_Box{
+        display: flex;
+        height: 100px;
+        width: 200px;
+        justify-content: space-around;
+        align-items: center;
+        color: rgb(86, 86, 86);
+        font-size: 15px;
+        cursor: pointer;
+        border-right: 0.5px solid lightgray;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+}
+.Currency__Info__Box{
+        display: flex;
+        height: 100px;
+        width: 200px;
+        justify-content: space-around;
+        align-items: center;
+        color: rgb(86, 86, 86);
+        font-size: 15px;
+        cursor: pointer;
+        border-right: 0.5px solid lightgray;
+}
+.Currency__Info_box{
+        display: flex;
+        height: 100px;
+        width: 200px;
+        justify-content: space-around;
+        align-items: center;
+        color: rgb(86, 86, 86);
+        font-size: 15px;
+        cursor: pointer;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+}
+.Currency__Info__Box:hover{
+        background-color: whitesmoke;
+        transition: 0.5s;
+        transform: scale(1.01);
+        cursor: pointer;
+
+}
+.Currency__Info_Box:hover{
+        background-color: whitesmoke;
+        transition: 0.5s;
+        transform: scale(1.01);
+        cursor: pointer;
+
+}
+.Currency__Info_box:hover{
+        background-color: whitesmoke;
+        transition: 0.5s;
+        transform: scale(1.01);
+        cursor: pointer;
+
+}
+.exchangemiddletop_chenging_percent{
+        display: flex;
+        align-items: center;
+}
+.exchangemiddletop_currency_info{
+        margin-left: -50px;
+}
+.exchangemiddletop_currency_name{
+        padding-top: 0px;
+        margin-top: -20px;
+        margin-left: 40px;
+}
+.exchangemiddletop_currency_name,.exchangemiddletop_chenging_percent{
+        margin-top: -15px;
+}
+.Currency__Info__Box_header{
+        font-size: small;
+        color: gray;
+}

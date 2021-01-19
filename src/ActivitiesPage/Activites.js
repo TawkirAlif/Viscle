@@ -9,7 +9,6 @@ import Select from "@material-ui/core/Select";
 import RadioButtonCheckedRoundedIcon from '@material-ui/icons/RadioButtonCheckedRounded';
 import InputBase from "@material-ui/core/InputBase";
 import LeftWidget from "./LeftWidget";
-import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
 import CloseRoundedIcon from "@material-ui/icons/CloseRounded";
 import { Avatar } from "@material-ui/core";
 import DnsRoundedIcon from '@material-ui/icons/DnsRounded';

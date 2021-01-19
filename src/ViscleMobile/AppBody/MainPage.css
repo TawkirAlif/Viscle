@@ -1,0 +1,160 @@
+.mainpage_top_adbox{
+     padding: 5px 20px;
+     margin: 20px 20px;
+     border-radius: 10px;
+     background-position: center center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     color: white;
+}
+.mainpage_top_adbox_top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: gray;
+        font-size: small;
+}
+.mainpage_top_adbox_top_left>p{
+        color: white;
+}
+.mainpage_top_adbox_top_middle>Button{
+        padding: 10px 20px;
+        background-color: white;
+        color: black;
+        text-transform: initial;
+        font-size: small;
+        border-radius: 15px;
+        margin-top: 50px;
+        margin-bottom: 70px;
+
+}
+.mainpage_top_adbox_top_right>.MuiSvgIcon-root{
+        padding: 5px;
+        border-radius: 999px;
+        background-color: whitesmoke;
+        font-size: small;
+}
+.mainpage_top_adbox_top_right>.MuiSvgIcon-root:hover{
+        color: red;
+}
+.mainpage_top_adbox_bottom{
+        display: flex;
+        align-items: center;
+}
+.ad_bootom{
+        padding: 2px;
+        width: 20px;
+        margin: 10px 5px;
+        background-color: whitesmoke;
+}
+.ad_bootom:hover{
+        background-color: blueviolet;
+}
+
+
+
+.visclemobile_mainpage_bottom{
+        border: 1px solid green;
+        display: flex;
+        justify-content: space-between;
+}
+
+
+.visclemobile_user__total__Balance{
+        width: 100%;
+        padding: 5px;
+        margin: 20px 20px;
+        background-color: white;
+        border-radius: 20px;
+        margin-bottom: 50px;
+        box-shadow: 0px 10px 50px lightgray;
+
+}
+.visclemobile_user__total__Balance_back{
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+}
+.visclemobile_user__total__Balance_back_icon>.MuiSvgIcon-root{
+     color: gray;
+     border-radius: 900px;
+     font-size: small;
+}
+.visclemobile_user__total__Balance_back>.MuiSvgIcon-root:hover{
+    color: red;
+    cursor: pointer;
+}
+.visclemobile_user__total__Balance_inshight_box{
+        height: 300px;
+        width: 100%;
+        cursor: pointer;
+}
+.visclemobile_user__total__Balance_inshight_box>img{
+   margin-left: 35px;
+   margin-top: 40px;
+}
+.visclemobile_user__total__Balance_box{
+        align-items: center;
+        justify-content: space-around;
+}
+.visclemobile_user__total__Balance_box_header{
+        display: flex;
+        justify-content: space-between;
+}
+.visclemobile_user__total__Balance_box_currency_container{
+        display: flex;
+        justify-content: space-between;
+}
+.visclemobile_user__total__Balance_box>h3{
+        margin-left: 88px;
+}
+
+.visclemobile_user__total__Balance_box_currency{
+        width: fit-content;
+        padding: 4px 8px;
+        cursor: pointer;
+        align-items: center;
+        font-size: medium;
+        border-radius: 30px;
+        background-color: orange;
+        color: white;
+}
+.visclemobile_user_balance{
+        width: fit-content;
+        justify-content: space-around;
+        align-items: center;
+}
+.visclemobile_userBalance{
+        justify-content: space-around;
+        display: flex;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.visclemobile_userBalancetoUsd{
+        justify-content: space-around;
+        display: flex;
+        color: rgb(0, 229, 0);
+        margin-top: -40px;
+}
+.visclemobile_user__total__Balance_box_buttons>Button{
+        background-color: rgb(46, 109, 236);
+        color: white;
+        font-weight: 600;
+        font-size: large;
+        font-style: unset;
+        text-transform: initial;
+        width: 150px;
+        padding: 8px 0px;
+        border-radius: 20px;
+        transition: 0.6s;
+        margin-bottom: 20px;
+}
+.visclemobile_user__total__Balance_box_buttons>Button:hover{
+        background-color: rgb(46, 109, 236);
+        width: 200px;
+        transition: 0.6s;
+}
+
+.visclemobile_user__total__Balance_box_buttons{
+        display: flex;
+        justify-content: space-around;
+}

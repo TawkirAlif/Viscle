@@ -31,6 +31,7 @@ function SingInPage() {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
 
   return (
     <div className="login">
@@ -89,10 +90,6 @@ function SingInPage() {
               </div>
               <div className="login_singUpButton">
                 <p1>New Here?</p1>
-                <p>
-                  {" "}
-                  <FingerprintRoundedIcon />{" "}
-                </p>
                 <p2 onClick={signup}>Sign up now</p2>
               </div>
               <div class="social-media">
@@ -173,12 +170,11 @@ function SingInPage() {
                   className="user-input-box"
                   type="password"
                   placeholder="Confirm password"
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
+                  value={confirmPassword}
+                  onChange={(e) => setConfirmPassword(e.target.value)}
                 ></input>
               </div>
 
-              <p className="Forgottenpassword">Forgot password?</p>
 
               <div className="verifybox">
                 <AdjustIcon />
