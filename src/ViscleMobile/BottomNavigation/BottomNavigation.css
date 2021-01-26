@@ -3,6 +3,9 @@
         display: flex;
         padding: 0 20px;
         justify-self: flex-end;
+        border-top: 1px solid lightgray;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
 
 }
 .bottomnavigation>Button{

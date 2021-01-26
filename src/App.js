@@ -15,8 +15,7 @@ import Header from './Header/Header'
 import Login from './Login/Login'
 import Activities from './ActivitiesPage/Activites'
 import PromotionSubPage from './PromotionPage/PromotionSubPage'
-import PromotionPageMain from'./PromotionPage/PromotionPageMain';
-import PromotionPage from './PromotionPage/PromotionSubPage'
+import PromotionPageMain from './PromotionPage/PromotionPageMain';
 import PricePage from './PricePage/PricePage'
 import MiddleWidget from "./Widgets/Middle_Widgets/Middle_Widget";
 import MiddleFeed from "./Widgets/Middle_Widgets/MiddleFeed.js";
@@ -25,11 +24,8 @@ import WalletPage from './WalletPage/Wallet'
 import PricePageFeedInfo from './PricePage/PricePageFeedInfo'
 import MobileExchange from './ViscleMobile/MobileExchange'
 import MobileBuySell from './ViscleMobile/MobileBuySell'
-import Sidebar from './ViscleMobile/Widget/Sidebar/Sidebar'
-import MobileHeader from './ViscleMobile/Header/Header'
-import MainPage from './ViscleMobile/AppBody/MainPage'
-import BottomNavigation from './ViscleMobile/BottomNavigation/BottomNavigation'
-import Exchange from './ViscleMobile/MobileExchange'
+import MobileOrder from './ViscleMobile/MobileOrder'
+import MobileTrade from './ViscleMobile/MobileTrade'
 
 
 
@@ -200,6 +196,14 @@ function App() {
                                 
                 <Route path='/mobilebuysell'>
                   <MobileBuySell />
+                </Route>
+
+                <Route path='/mobileorder'>
+                  <MobileOrder />
+                </Route>
+
+                <Route path='/mobiletrade'>
+                  <MobileTrade />
                 </Route>
 
                 <Route path='/'>

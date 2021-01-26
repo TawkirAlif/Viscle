@@ -1,18 +1,16 @@
 
-.ExchengerMiddleBottomRightTop_header{
+.visclemobile_ExchengerMiddleBottomRightTop_header{
         display: flex;
         justify-content: space-between;
-        padding: 10px 30px;
+        padding: 10px 20px;
         align-items: center;
-        width: 400px;
-        margin-left: 40px;
 
 }
-.ExchengerMiddleBottomRightTop_body{
+.visclemobile_ExchengerMiddleBottomRightTop_body{
         border: 0.5px solid lightgray;
         border-radius: 20px;
-        width: 360px;
-        margin-left: 85px;
+        margin: 0 20px;
+        margin-bottom: 20px;
 }
 .ExchengerMiddleBottomRightTop_header_icons>.MuiSvgIcon-root{
         padding: 3px;

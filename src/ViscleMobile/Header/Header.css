@@ -4,6 +4,9 @@
 .ViscleMobile_header{
         padding: 0 20px;
         transition: 1s;
+        border-bottom: 1px solid lightgray;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
 }
 .ViscleMobile_header_bottom_option_text{
         margin-left: 20px;

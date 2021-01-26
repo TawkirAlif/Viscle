@@ -54,7 +54,6 @@
 
 
 .visclemobile_mainpage_bottom{
-        border: 1px solid green;
         display: flex;
         justify-content: space-between;
 }
@@ -108,7 +107,11 @@
 .visclemobile_user__total__Balance_box>h3{
         margin-left: 88px;
 }
-
+.visclemobile_middle__widget__middle{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+}
 .visclemobile_user__total__Balance_box_currency{
         width: fit-content;
         padding: 4px 8px;
@@ -157,4 +160,32 @@
 .visclemobile_user__total__Balance_box_buttons{
         display: flex;
         justify-content: space-around;
+}
+.visclemobile_feeds{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+}
+.discover_more_assest{
+        display: flex;
+        justify-content: space-between;
+}
+.discover_assest>Button{
+     padding: 10px 20px;
+     background-color: blue;
+     color: white;
+     font-weight: 600;
+     margin: 0 20px;
+     margin-top: 30px;
+     border-radius: 15px;
+
+}
+.discover_assest>Button:hover{
+        background-color: blue;
+}
+.visclemobile_right_widget_bottom_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
 }

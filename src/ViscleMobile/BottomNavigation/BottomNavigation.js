@@ -19,6 +19,18 @@ function BottomNavigation() {
     e.preventDefault();
     if ('submit')
     history.push("/mobilebuysell");
+  };
+  
+  const MobileOrder = (e) => {
+    e.preventDefault();
+    if ('submit')
+    history.push("/mobileorder");
+  };
+  
+  const MobileTrade = (e) => {
+    e.preventDefault();
+    if ('submit')
+    history.push("/mobiletrade");
 };
 
   return (
@@ -35,10 +47,12 @@ function BottomNavigation() {
         onClick={MobileBuySell} />
       </Button>
       <Button className="bottomnavigation_button">
-        <ImportExportRoundedIcon />
+        <ImportExportRoundedIcon  type="submit"
+        onClick={MobileOrder}/>
       </Button>
       <Button className="bottomnavigation_button">
-        <InsertDriveFileRoundedIcon />
+        <InsertDriveFileRoundedIcon type="submit"
+        onClick={MobileTrade}/>
       </Button>
     </div>
   );

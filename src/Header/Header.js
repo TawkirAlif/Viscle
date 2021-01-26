@@ -68,7 +68,7 @@ function Header({ profilrPic }) {
       <div className="header__left">
         <img
           className="logo"
-          src="https://scontent.xx.fbcdn.net/v/t1.15752-9/133732630_383628032737473_3554463676936883782_n.png?_nc_cat=109&ccb=2&_nc_sid=58c789&_nc_eui2=AeFzl11LgUJhIZKXNZCaIcO7smrNKGQgu7Wyas0oZCC7tTvui58k4Bo7zqkdiru8na0Xcto141I9HdZORigeADPi&_nc_ohc=wAcvrmEqfoMAX92vtV4&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=06336ec79b2dc94156a99ebde613c5ae&oe=6018B4EA"
+          src="https://pbs.twimg.com/media/EsFbuJ0VQAEbach?format=png&name=small"
           alt=""
         />
         <KeyboardBackspaceRoundedIcon className="header_back_icon" />

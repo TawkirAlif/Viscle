@@ -7,7 +7,7 @@ import ExchengerMiddleBottomRightTop_mainBody from "./ExchengerMiddleBottomRight
 function ExchengerMiddleBottomRightTop() {
   return (
     <div className="exchengermiddlebottomrighttop">
-      <div className="ExchengerMiddleBottomRightTop_header">
+      <div className="visclemobile_ExchengerMiddleBottomRightTop_header">
         <div>
           <h2>Order Book</h2>
         </div>
@@ -17,7 +17,7 @@ function ExchengerMiddleBottomRightTop() {
           <ViewCarouselRoundedIcon className="icon3" />
         </div>
       </div>
-      <div className="ExchengerMiddleBottomRightTop_body">
+      <div className="visclemobile_ExchengerMiddleBottomRightTop_body">
         <div className="ExchengerMiddleBottomRightTop_body_header">
           <div className="ExchengerMiddleBottomRightTop_mainBody_toprate_header">
             <p>Price</p>

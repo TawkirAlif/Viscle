@@ -13,7 +13,9 @@ function Header() {
     <div className="ViscleMobile_header">
       <div className="ViscleMobile_header_top">
         <div className="ViscleMobile_header_top_logo">
-          <img src="https://pbs.twimg.com/media/Ermizi3U0AAX_tu?format=png&name=900x900" alt='tawkir'/>
+          <img
+          src="https://pbs.twimg.com/media/EsFbuJ0VQAEbach?format=png&name=small"
+            alt='tawkir' />
                           </div>
                           <div className='ViscleMobile_header_right'>
           <div className="ViscleMobile_header_top_notification">

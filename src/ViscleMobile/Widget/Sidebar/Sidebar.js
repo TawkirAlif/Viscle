@@ -50,7 +50,7 @@ function Sidebar() {
       <div className="sidebar_top">
         <div className="sidebar_top_logo">
           <img
-            src="https://pbs.twimg.com/media/Ermizi3U0AAX_tu?format=png&name=900x900"
+          src="https://pbs.twimg.com/media/EsFbuJ0VQAEbach?format=png&name=small"
             alt="tawkir"
           />
         </div>

@@ -12,7 +12,7 @@ function ExchengerMiddleBottomRightBuySellBox() {
   const useStyles = makeStyles((theme) => ({
     formControl: {
       margin: theme.spacing(1),
-      width: '90%',
+      width: '87%',
       backgroundColor: "whitesmoke",
       borderRadius: 10,
       color: "gray",

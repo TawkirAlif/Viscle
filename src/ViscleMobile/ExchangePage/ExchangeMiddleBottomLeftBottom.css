@@ -20,24 +20,30 @@
         margin-bottom: 10px;
         color: gray;
 }
-.ExchangeMiddleBottomLeftBottom_body-top{
+.visclemobile_ExchangeMiddleBottomLeftBottom_body-top{
         display: flex;
-        justify-content: space-around;
-        width: 750px;
-
+        justify-content: space-between;
+        padding: 0 10px;
 }
-.middlebottomleftbottom_bodyHead{
-        width: 200px;
+.visclemobile_middlebottomleftbottom_bodyHead{
         color: rgb(91, 91, 91);
-        font-size: 17px;
-        margin-left: 20px;
+        font-size: small;
 }
-.ExchangeMiddleBottomLeftBottom_body{
-        border-top: 0.5px solid lightgray;
+.visclemobile_ExchangeMiddleBottomLeftBottom_body{
+        border: 1px solid lightgray;
+        margin: 10px 10px;
+        border-radius: 20px;
 }
 .ExchangeMiddleBottomLeftBottom_body-top{
         border-bottom: 0.5px solid lightgray;
 }
 .ExchengerMiddleBottomRightTop_mainBody_toprate_p{
         align-items: center;
+}
+.FormSelect{
+        display: flex;
+        justify-content: space-between;
+}
+.visclemobile_ExchangeMiddleBottomLeftBottom_buttons>h3{
+        margin-left: 20px;
 }
