@@ -1,0 +1,160 @@
+.logo{
+        height: 50px;
+    }
+
+    
+    /*        overflow-y: scroll;
+            scroll-behavior: smooth;
+            height: 72vh;
+            position: fixed; 
+            width: 360px;
+            overflow-x: unset;
+            -ms-overflow-style: none;
+            scrollbar-width:none;
+    */
+    
+    .SmallleftWidgetOption{
+        margin-left: 20px;
+    }
+    .pSmallleftwidget{
+        overflow-y: scroll;
+        overflow-x: unset;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        height: 93vh;
+        width: 200px;
+    
+    }
+    .pSmallleftwidget::-webkit-scrollbar{
+        display: none;
+    }
+    .SmallleftSidebar{
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .Smallleft_widget_middle_option{
+        width: 60px;
+        min-width: auto;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        color: gray;
+        transition: 0.5s;
+    }
+    .Smallleft_widget_middle_option:hover{
+        cursor: pointer;
+        background-color: rgb(236, 235, 235);
+        transition: 0.1s;
+        color: blue;
+        transform: scale(1.07);
+        width: 100px;
+        transition: 0.5s;
+    }
+    .Smallleft_widget_middle_option_icon.MuiSvgIcon-root{
+        margin-right: 20px;  
+        margin-left: 20px;
+        font-size: 25px;
+        padding: 10px;
+        color: gray;
+    }
+    .Smallleft_widget_middle_option_icon.MuiSvgIcon-root:hover{
+            color: blue;
+    }
+    .Smallleft_widget_middle_option>p{
+        font-weight: 600;
+    }
+    
+    
+    .Smallleft_widget_bottom_messageBox{
+        margin-top: 34vh;
+        border-radius: 30px;
+        padding: 2px 15px;
+        width: 50px;
+        margin-left: 8px;
+        background: linear-gradient(210deg ,#bebebe, #656a68 );
+        box-shadow: 0px 10px 50px gray;
+        color: white;
+        margin-bottom: 10px;
+    }
+    .Smallleft_widget_bottom_messageBox:hover{
+        background: linear-gradient(210deg , #656a68, #bebebe );
+        transition: 1s;
+        transform: scale(1.02);
+    }
+    .Smallleft_widget_bottom_message_box_icon{
+        margin-left: -9px;
+        margin-top: 4px;
+        cursor: pointer;
+    }
+    .Smallleft_widget_bottom_message_box_icon:hover{
+        margin-left: 33px;
+        transition: 1s;
+        cursor: pointer;
+    }
+    .Smallleft_widget_bottom_message_box_text{
+        width: 150px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+    .Smallleft_widget_bottom_message_box_icon>.MuiSvgIcon-root{
+        border-radius: 999px;
+        align-items: center;
+        font-size: 15px;
+        padding: 4px;
+        background-color: white;
+        cursor: pointer;
+        color: black;
+        transition: 0.5s;
+        margin-right: 20px;
+    }
+    .Smallleft_widget_bottom_message_box_icon>.MuiSvgIcon-root:hover{
+        color: white;
+        background-color: black;
+        transition: 0.5s;
+    }
+    .Smallleft_widget_bottom_message_box_button>Button{
+        background-color: white;
+        border-radius: 10px;
+        width: 120px;
+        transition: 0.6s;
+        text-transform: initial;
+        font-size: medium;
+        margin-left: 15px;
+    }
+    .Smallleft_widget_bottom_message_box_button>Button:hover{
+        background-color: white;
+        width: 190px;
+        transition: 0.6s;
+        color: #0fdb90;
+    
+    }
+    
+    
+    .Smallleft_widget_bottom{
+        margin-top: 50px;
+        display: flex;
+        padding: 0 20px;
+        margin-bottom: 10px;
+        width: 30px;
+        margin-left: 15px;
+        align-items: center;
+        border-radius: 26px;
+        transition: 0.5s;
+    }
+    .Smallleft_widget_bottom_h3{
+        margin-left: 20px;
+        color: white;
+        font-weight: 600;
+    }
+    
+    .Smallleft_widget_bottom:hover{
+        background-color: rgb(200, 200, 200);
+        cursor: pointer;
+        transition: 0.5s;
+        width: 200px;
+    }
+    .Smallleft_widget_bottomIcon:hover{
+        cursor: pointer;
+    }
+    

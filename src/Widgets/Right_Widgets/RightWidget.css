@@ -1,0 +1,115 @@
+
+.rightwidget{
+    position: relative;
+}
+
+.user__total__Balance{
+        width: 300px;
+        padding: 5px;
+        margin: 25px 100px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0px 10px 50px lightgray;
+
+}
+.user__total__Balance_back>.MuiSvgIcon-root{
+     margin-left: 270px;
+     border-radius: 900px;
+     padding-top: 10px;
+     font-size: small;
+}
+.user__total__Balance_back>.MuiSvgIcon-root:hover{
+    color: red;
+    cursor: pointer;
+}
+.user__total__Balance_inshight_box{
+        height: 300px;
+        width: 100%;
+        cursor: pointer;
+}
+.user__total__Balance_inshight_box>img{
+   margin-left: 35px;
+   margin-top: 40px;
+}
+.user__total__Balance_box{
+        align-items: center;
+        justify-content: space-around;
+}
+.user__total__Balance_box>h3{
+        margin-left: 88px;
+}
+
+.user__total__Balance_box_currency{
+        width: fit-content;
+        padding: 4px 8px;
+        cursor: pointer;
+        align-items: center;
+        font-size: medium;
+        border-radius: 30px;
+        background-color: orange;
+        color: white;
+        margin-left: 125px;
+}
+.user_balance{
+        width: fit-content;
+        justify-content: space-around;
+        align-items: center;
+}
+.userBalance{
+        justify-content: space-around;
+        display: flex;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.userBalancetoUsd{
+        justify-content: space-around;
+        display: flex;
+        color: rgb(0, 229, 0);
+        margin-top: -40px;
+}
+.user__total__Balance_box_buttons>Button{
+        background-color: rgb(46, 109, 236);
+        color: white;
+        font-weight: 600;
+        font-size: large;
+        font-style: unset;
+        text-transform: initial;
+        width: 150px;
+        padding: 8px 0px;
+        border-radius: 20px;
+        transition: 0.6s;
+        margin-bottom: 20px;
+}
+.user__total__Balance_box_buttons>Button:hover{
+        background-color: rgb(46, 109, 236);
+        width: 200px;
+        transition: 0.6s;
+}
+
+.user__total__Balance_box_buttons{
+        display: flex;
+        justify-content: space-around;
+}
+.right_widget_bottom_header{
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+}
+.right_widget_bottom{
+        height: 50vh;
+        box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+        border-radius: 20px;
+        overflow-y: scroll;
+        overflow-x: unset;
+        position: relative;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+}
+.right_widget_bottom::-webkit-scrollbar{
+        display: none;
+      }
+.right_widget_bottom_header>.MuiSvgIcon-root{
+     cursor: pointer;
+}
+.right_widget_bottom_header>.MuiSvgIcon-root:hover{
+        color: rgb(22, 119, 255);
+}

@@ -1,0 +1,43 @@
+.top{
+        padding: 10px;
+        justify-content: space-around;
+        align-items: center;
+        width: 810px;
+}
+.top>Button{
+        padding: 10px;
+        margin: 0 20px;
+        justify-content: space-around;
+        text-transform: initial;
+        border-radius: 20px;
+        color: gray;
+}
+.top>Button:hover{
+        color: blue;
+}
+.top>h3{
+        margin-left: 30px;
+        margin-bottom: 10px;
+        color: gray;
+}
+.ExchangeMiddleBottomLeftBottom_body-top{
+        display: flex;
+        justify-content: space-around;
+        width: 750px;
+
+}
+.middlebottomleftbottom_bodyHead{
+        width: 200px;
+        color: rgb(91, 91, 91);
+        font-size: 17px;
+        margin-left: 20px;
+}
+.ExchangeMiddleBottomLeftBottom_body{
+        border-top: 0.5px solid lightgray;
+}
+.ExchangeMiddleBottomLeftBottom_body-top{
+        border-bottom: 0.5px solid lightgray;
+}
+.ExchengerMiddleBottomRightTop_mainBody_toprate_p{
+        align-items: center;
+}

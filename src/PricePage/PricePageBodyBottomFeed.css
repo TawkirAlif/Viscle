@@ -1,0 +1,75 @@
+.price__page__bodyBottom_feed{
+        display: flex;
+        justify-content: space-around;
+        width: 1150px;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: 0.2s;
+
+}
+.price__page__bodyBottom_feed:hover{
+        box-shadow: 0px 10px 50px whitesmoke;
+        transition: 0.2s;
+        border: 1px solid rgb(0, 115, 255);
+}
+.price__page__bodyBottom_feed_container{
+        width: 300px;
+
+}
+.Token_Symble{
+        display: flex;
+        justify-content: space-around;
+        padding: 0 4px;
+        margin-top: 4px;
+        color: gray;
+        
+}
+.Price_Time{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 4px;
+        margin-top: 4px;
+        color: gray;
+}        
+
+.MarketCap_Volume{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 4px;
+        color: gray;
+        margin-top: 4px;
+}     
+.price__page__bodyMiddle_header_container>h3{
+        margin-left: 50px;
+        font-size: small;
+}
+.empty{
+        width: 60px;
+}
+.empty>.MuiSvgIcon-root{
+       color: aliceblue;
+}
+.pricepagebodybottomfeed{
+        border-radius: 15px;
+}
+.token{
+        display: flex;
+        align-items: center;
+
+        width: 130px;
+}
+.token_p{
+        margin-left: 10px;
+}
+.symble>p{
+        margin-left: 80px;
+}
+.Time{
+        display: flex;
+        align-items: center;
+}
+
+.price__page__bodyBottom_feed_container>h3{
+        margin-left: 40px;
+        color: blue;
+}

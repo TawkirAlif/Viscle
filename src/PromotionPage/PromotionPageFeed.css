@@ -1,0 +1,43 @@
+.promotionpagefeed{
+        width: 300px;
+        padding: 5px;
+        margin: 20px 10px;
+        border-radius: 15px;
+        cursor: pointer;
+        box-shadow: 0px 10px 50px lightgray;
+}
+.promotionpagefeed_header{
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 230px;
+        border-radius: 10px;
+}
+.promotionpagefeed_time>p{
+        padding: 5px 5px;
+        width: 155px;
+        margin-left: 20px;
+        border-radius: 20px;
+        background-color: rgb(230, 255, 230);
+        color: rgb(5, 220, 9);
+}
+.promotionpagefeed_time>h3{
+        margin-left: 20px;
+}
+.promotionpagefeed_button_icon{
+        margin-right: 10px;
+        color: gray;
+}
+.promotionpagefeed_button>Button{
+       font-size: 15px;
+       color: rgb(81, 81, 81);
+       text-transform: initial; 
+       align-items: center;
+       padding: 5px 10px;
+       height: 50px;
+       width: 200px;
+       border: 1px solid lightgray;
+       border-radius: 10px;
+       margin-left: 20px;
+       margin-bottom: 10px;
+}

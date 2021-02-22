@@ -1,0 +1,176 @@
+.pricepagefeedmiddle{
+        width: 700px;
+        border-radius: 15px;
+        margin-bottom: 50px;
+        box-shadow: 0px 10px 50px lightgray;
+}
+.PricePageFeedMiddle_header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 30px;
+}
+.PricePageFeedMiddle_header_left_left{
+        display: flex;
+        align-items: center;
+        padding: 10px 30px;
+}
+.PricePageFeedMiddle_header_left_left_infoBox{
+        margin-left: 10px;
+}
+.PricePageFeedMiddle_header_left{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.PricePageFeedMiddle_header_left_left_infoBox>p{
+        padding-left: 5px;
+        margin-top: -20px;
+}
+.PricePageFeedMiddle_header_bottom_info{
+        padding: 0 30px;
+        display: flex;
+}
+.PricePageFeedMiddle_header_bottom_info>h1{
+        font-weight: 200;
+        margin-right: 10px;
+        margin-top: -10px;
+}
+.PricePageFeedMiddle_header_bottom_info>p{
+    margin-top: -6px;
+}
+.PricePageFeedMiddle_header_right{
+        margin-left: 150px;
+}
+
+.PricePageFeedMiddle_header_right>Button{
+    width: 120px;
+    height: 40px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    color: black;
+    text-transform: initial;
+    align-items: center;
+    font-size: small;
+    color: rgb(129, 127, 127);
+    justify-content: space-between;
+}
+.PricePageFeedMiddle_header_right>Button:hover{
+        font-size: small;
+        color: blue;
+}
+.PricePageFeedMiddle_rate_box{
+        border: 1px solid gray;
+        margin: 0 30px;
+        height: 300px;
+        border-radius: 15px;
+}
+.PricePageFeedMiddle_rate_box_bottom{
+        display: flex;
+        justify-content: space-around;
+        margin: 0 20px;
+}
+.PricePageFeedMiddle_middle{
+        padding: 10px 30px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        display: flex;
+}
+.PricePageFeedMiddle_middle_infoCintainer{
+        display: flex;
+        align-items: center;
+        font-size: small;
+        color: gray;
+        margin-bottom: 40px;
+        padding: 0 10px;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: 0.3s;
+}
+.PricePageFeedMiddle_middle_infoCintainer:hover{
+        background-color: whitesmoke;
+        transition: 0.3s;
+}
+.PricePageFeedMiddle_middle_right_top{
+        display: flex;
+        align-items: center;
+        font-size: small;
+        color: gray; 
+        margin-top: 18px;
+}
+.PricePageFeedMiddle_middle_infoCintainer{
+        width: 250px;
+}
+.PricePageFeedMiddle_middle_left_right{
+        margin-left: 10px;
+}
+.PricePageFeedMiddle_middle_right_bottom{
+        margin-top: -22px;
+        color: rgb(69, 69, 69);
+        font-size: medium;
+        font-weight: 100;
+}
+.PricePageFeedMiddle_middle_right_top>.MuiSvgIcon-root{
+     font-size: small;
+     margin-left: 10px;
+     margin-top: 5px;
+}
+.PricePageFeedMiddle_about_box{
+        padding: 0 30px;
+        display: flex;
+        justify-content: space-between;
+}
+.PricePageFeedMiddle_about_box_right,.PricePageFeedMiddle_about_box_left{
+        width: 300px;
+}
+.PricePageFeedMiddle_about_box_right{
+        margin-top: 45px;
+}
+.aboutbitcoin{
+        color: rgb(120, 118, 118);
+}
+.linkname{
+        color: blue;
+        align-items: center;
+        cursor: pointer;
+        margin-left: 10px;
+}
+.linkname:hover{
+        text-decoration: underline;
+}
+.PricePageFeedMiddle_about_box_right_link{
+        display: flex;
+        align-items: center;
+        font-size: small;
+        color: gray;
+}
+.PricePageFeedMiddle_button{
+        padding:0 30px;
+}
+.PricePageFeedMiddle_button>Button{
+        width: 640px;
+        height: 50px;
+        color: white;
+        background-color: rgb(33, 99, 254);
+        text-transform: initial;
+        border-radius: 15px;
+        margin-bottom: 30px;
+        margin-bottom: 30px;
+        
+}
+.PricePageFeedMiddle_button>Button:hover{
+        width: 640px;
+        height: 50px;
+        color: white;
+        background-color: rgb(33, 99, 254);
+        text-transform: initial;
+        border-radius: 15px;
+}
+.PricePageFeedMiddle_middle_left_right_icon{
+        padding: 5px;
+        color: blue;
+        border: 1px solid lightgray;
+        border-radius: 999px;
+}

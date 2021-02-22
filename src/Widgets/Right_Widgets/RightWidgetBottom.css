@@ -1,0 +1,46 @@
+.rightwidgetbottom{
+        height: fit-content;
+        width: 360px;
+        margin: 10px 60px;
+}
+.activitybox{
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+}
+.activity_Info{
+        display: flex;
+
+}
+.activity_icon{
+        margin: 15px 20px;
+}
+.activity_name{
+        color: rgb(67, 67, 67);
+}
+.activity_status{
+        color: rgb(0, 224, 0);
+        font-size: small;
+        margin-top: -14px;
+}
+.activity_Status{
+        color: red;
+        font-size: small;
+        margin-top: -14px;
+}
+.activity_monye{
+        margin-top: -5px;
+        color: rgb(67, 67, 67);
+}
+.activity_time{
+        padding: 18px;
+        font-size: small;
+        color: gray;
+}
+.activityBoxBottom{
+        border: 1px solid lightgray;
+        width: 310px;
+        margin-left: 25px;
+        justify-content: space-around;
+        margin-bottom: 10px;
+}

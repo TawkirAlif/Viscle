@@ -1,0 +1,100 @@
+.exchengermiddlebottomrightbuysellbox{
+   width: 350px;
+   margin-left: 88px;
+   margin-top: 50px;
+   border-radius: 20px;
+   box-shadow: 0px 10px 50px lightgray;
+}
+.buysellbutton{
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+}
+
+.buysellboxotherbottom{
+        display: flex;
+        justify-content: space-around;
+}
+.buysellboxother{
+        border: 1px solid transparent;
+        border-radius: 15px;
+        margin: 20px;
+        height: 60px;
+        background-color: whitesmoke;
+        cursor: pointer;
+}
+.formselect>.MuiFormControl-root{
+   margin-left: 23px;
+}
+.buysellboxother:hover{
+    background-color: white;
+    border: 1px solid blue;
+    transition: 0.5s;
+}
+.buysellboxotherheader>p{
+        margin-left: 20px;
+        margin-top: 8px;
+        color: gray;
+        font-size: small;
+}
+.buysellboxotherbottomp1{
+    margin-top: -12px;
+    margin-right: 100px;
+    font-size: small;
+    color: rgb(55, 55, 55);
+}
+.buysellboxotherbottomp_usdt{
+        margin-top: -12px;
+        font-size: small;
+        color: rgb(26, 232, 74);
+}
+.buysellboxotherbottomp_btc{
+        margin-top: -12px;
+        font-size: small;
+        color: rgb(255, 178, 45);
+}
+.buysellboxbutton{
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+}
+.buysellboxbutton>Button{
+     background-color: rgb(14, 143, 255);
+     text-transform: initial;
+     color: white;
+     font-weight: 900;
+     height: 60px;
+     width: 200px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     transition: 0.5s;
+     border-radius: 20px;
+}
+.buysellboxbutton>Button:hover{
+        width: 300px;
+        background-color: rgb(14, 143, 255);
+        transition: 1s;
+}
+.buy>Button{
+        width: 150px;
+        border-radius: 20px;
+        text-transform: initial;
+        font-weight: 900;
+        padding: 10px;
+        color: gray;
+}
+.sell>Button{
+        width: 150px;
+        border-radius: 20px;
+        text-transform: initial;
+        font-weight: 900;
+        color:blue;
+        padding: 10px;
+        color: gray;
+}
+.buy>Button:hover{
+        color: blue;
+}
+.sell>Button:Hover{
+        color: blue;
+}

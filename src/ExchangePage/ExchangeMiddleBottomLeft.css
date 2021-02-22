@@ -1,0 +1,160 @@
+
+.exchangemiddlebottomleft{
+        width: fit-content;
+        max-width: 750px;
+}
+.exchangemiddle_bottom_left{
+        border: 1px solid lightgray;
+        width: 820px;
+        border-radius: 30px;
+        max-width: 750px;
+}
+.Exchange_Middle_Bottom_Left{
+        max-width: 800px;
+}
+.Exchange_Middle_Bottom_Left_header{
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-height: 30px;
+        box-shadow: 0px 5px 8px -8px rgba(0, 0, 0, 0.75);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+}
+.Exchange_Middle_Bottom_Left_header_buttons>Button{
+    border-radius: 30px;
+    text-transform: initial;
+    margin: 0 10px;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    color: gray;
+}
+.Exchange_Middle_Bottom_Left_header_buttons>Button:hover{
+        color: blue;
+        transition: 0.3s;
+}
+.Exchange_Middle_Bottom_Left_header_right_icons{
+        display: flex;
+        align-items: center;
+        margin: 0 10px; 
+}
+.Exchange_Middle_Bottom_Left_header_right_icon{
+        display: flex;
+        align-items: center;
+        margin: 0 8px;
+        color: rgb(96, 96, 96);
+        border-radius: 20px;
+        padding: 0 5px;
+        max-height: 35px;
+        cursor: pointer;
+        font-size: small;
+        margin-right: 10px;
+
+}
+.Exchange_Middle_Bottom_Left_header_right_icon>.MuiSvgIcon-root{
+        margin-right: 10px;
+}
+.Exchange_Middle_Bottom_Left_header_right_icon_launch{
+        display: flex;
+        align-items: center;
+        margin: 0 8px;
+        color: rgb(96, 96, 96);
+        border-radius: 20px;
+        padding: 0 6px;
+        max-height: 35px;
+        cursor: pointer;
+        font-size: medium;
+}
+.Exchange_Middle_Bottom_Left_header_right_icon_launch>.MuiSvgIcon-root,.Exchange_Middle_Bottom_Left_header_right_icon>.MuiSvgIcon-root{
+     font-size: 21px;
+}
+
+.Exchange_Middle_Bottom_Left_header_right_icon:hover{
+        background-color: aliceblue;
+        transition: 0.1s;
+        transform: scale(1.02);
+        cursor: pointer;
+        color: blue;
+}
+.Exchange_Middle_Bottom_Left_header_right_icon_launch:hover{
+        background-color: aliceblue;
+        transition: 0.1s;
+        transform: scale(1.02);
+        cursor: pointer;
+        color: red;
+}
+.exchangemiddle_bottom_left_middle_body_header{
+        display: flex;
+        justify-content: space-around;
+}
+.exchangemiddle_bottom_left_middle_body_header_box{
+        display: flex;
+        align-items: center;
+
+}
+.exchangemiddle_bottom_left_middle_body{
+        border: 0.5px solid lightgray;
+        border-bottom: none;
+        border-left: none;
+}
+.exchangemiddle_bottom_left_middle_body_header_box-icon{
+        margin-right: 8px;
+        color: gray;
+        font-size: small;
+}
+.exchangemiddle_bottom_left_middle_body_header_box_text{
+        font-size: small;
+        color: orangered;
+}
+
+.exchangemiddle_bottom_left_middle_body_insight_box{
+        height: 500px;
+        width: 628px;
+        cursor: pointer;
+        object-fit: contain; 
+}
+.exchangemiddle_bottom_left_middle_body_insight_box>img{
+        object-fit: contain; 
+        width: 100%;
+        height: 500px;
+}
+.exchangemiddle_bottom_left_middle{
+        display: flex;
+}
+.exchangemiddle_bottom_left_middle_body_widget{
+        width: 120px;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 26px;
+        height: 521px;
+}
+.exchangemiddle_bottom_left_middle_body_widget>p{
+        align-items: center;
+        justify-content: space-around;
+        color: gray;
+        padding: 6.3px 20px;
+        cursor: pointer;
+        border-radius: 20px;
+}
+.exchangemiddle_bottom_left_middle_body_widget>p:hover{
+        color: white;
+        background-color: black;
+        transition: 0.5s;
+}
+.Exchange_Middle_Bottom_Left_Bottom{
+        display: flex;
+        border: 0.3px solid lightgray;
+        border-right: none;
+        border-left: none;
+        width: 750px;
+}
+.Exchange_Middle_Bottom_Left_Bottom>p{
+        padding: 0 22px ;
+        cursor: pointer;
+        color: gray;
+}
+.Exchange_Middle_Bottom_Left_Bottom>p:hover{
+        color: rgb(0, 94, 255);
+}

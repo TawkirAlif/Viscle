@@ -1,0 +1,49 @@
+.top{
+        padding: 10px;
+        justify-content: space-around;
+        align-items: center;
+        width: 810px;
+}
+.top>Button{
+        padding: 10px;
+        margin: 0 20px;
+        justify-content: space-around;
+        text-transform: initial;
+        border-radius: 20px;
+        color: gray;
+}
+.top>Button:hover{
+        color: blue;
+}
+.top>h3{
+        margin-left: 30px;
+        margin-bottom: 10px;
+        color: gray;
+}
+.visclemobile_ExchangeMiddleBottomLeftBottom_body-top{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+}
+.visclemobile_middlebottomleftbottom_bodyHead{
+        color: rgb(91, 91, 91);
+        font-size: small;
+}
+.visclemobile_ExchangeMiddleBottomLeftBottom_body{
+        border: 1px solid lightgray;
+        margin: 10px 10px;
+        border-radius: 20px;
+}
+.ExchangeMiddleBottomLeftBottom_body-top{
+        border-bottom: 0.5px solid lightgray;
+}
+.ExchengerMiddleBottomRightTop_mainBody_toprate_p{
+        align-items: center;
+}
+.FormSelect{
+        display: flex;
+        justify-content: space-between;
+}
+.visclemobile_ExchangeMiddleBottomLeftBottom_buttons>h3{
+        margin-left: 20px;
+}

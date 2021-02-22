@@ -1,0 +1,24 @@
+.visclemobile_exchangemiddlebottomleftbottom_bodyfeed{
+   display: flex;
+   justify-content: space-between;
+
+}
+.visclemobile_exchangemiddlebottomleftbottom_bodyfeed_toprate{
+    color: rgb(44, 201, 156);
+    font-size: small;
+}
+.visclemobile_exchangemiddlebottomleftbottom_bodyfeed_lowrate{
+        color: rgb(224, 98, 98);
+        font-size: small;
+}
+.visclemobile_middlebottomleftbottom_bodyfeed{
+        color: gray;
+        font-size: 17px;
+        margin: 0 10px;
+}
+.visclemobile_exchangemiddlebottomleftbottom_bodyfeed{
+ border-top: 0.5px solid lightgray;
+}
+.visclemobile_exchangemiddlebottomleftbottom_bodyfeed_text{
+        font-size: small;
+}

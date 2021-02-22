@@ -1,0 +1,101 @@
+.wallet__page__bodyBottom_feed{
+        display: flex;
+        justify-content: space-around;
+        width: 850px;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: 0.2s;
+        background-color: transparent;
+
+
+}
+.wallet__page__bodyBottom_feed:hover{
+        box-shadow: 0px 10px 50px rgb(233, 230, 230);
+        transition: 0.1s;
+        border: 1px solid rgb(19, 125, 255);
+}
+.wallet__page__bodyBottom_feed_container{
+        width: 200px;
+        margin-left: -30px;
+        background-color: transparent;
+}
+.wallet__page__bodyBottom_feedToken_Symble{
+        display: flex;
+        justify-content: space-around;
+        padding: 0 1px;
+        margin-top: 4px;
+        color: gray;
+        margin-left: 20px;
+        
+}
+.volume{
+        margin-left: 20px;
+}
+.wallet__page__bodyBottom_feedmarketCap{
+        margin-right: 0px;
+        margin-left: -20px;
+}
+.wallet__page__bodyBottom_feedPrice_Time{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 4px;
+        margin-top: 4px;
+        color: gray;
+        margin-left: 20px;
+}        
+
+.wallet__page__bodyBottom_feedMarketCap_Volume{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 4px;
+        color: gray;
+        margin-top: 4px;
+}     
+.wallet__page__bodyMiddle_header_container>h3{
+        margin-left: 50px;
+        font-size: small;
+}
+.wallet__page__bodyBottom_feedempty{
+        width: 60px;
+        margin-top: 30px;
+        color: gray;
+}
+.wallet__page__bodyBottom_feedempty>.MuiSvgIcon-root{
+    margin-left: 15px;
+    color: antiquewhite;
+}
+.wallet__page__bodyBottom_feedempty>.MuiSvgIcon-root:hover{
+        color: rgb(0, 115, 255);
+}
+.walletpagebodybottomfeed{
+        border-radius: 15px;
+}
+.wallet__page__bodyBottom_feed_containertoken{
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        width: 130px;
+        margin-left: -30px;
+}
+.wallet__page__bodyBottom_feed_containertokentoken_p{
+        margin-left: 10px;
+}
+.wallet__page__bodyBottom_feed_containersymble>p{
+        margin-left: -10px;
+        margin-top: 30px;
+}
+.wallet__page__bodyBottom_feedTime{
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        margin-top: 15px;
+}
+
+.wallet__page__bodyBottom_feed_container>h3{
+        margin-left: 40px;
+        color: blue;
+}
+.wallet__page__bodyBottom_feed_container_Total_price>p{
+        margin-left: 80px;
+        color: gray;
+}

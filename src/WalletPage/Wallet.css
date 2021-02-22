@@ -1,0 +1,425 @@
+.wallet__body{
+        display: flex;
+       
+
+}
+
+.wallet__main__body{
+        max-width: 100%;
+        width: 100%;
+        overflow-y: scroll;
+        overflow-x: none;
+        position: relative;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        height: 93vh;
+}
+.wallet__main__body::-webkit-scrollbar{
+        display: none;
+      }
+
+
+.wallet__main__body__top{
+        margin-bottom: 50px;
+}
+.walletwidget{
+        width: 0;
+        transition: 0.5s;
+        color: gray;
+       /* 
+        position: fixed;
+        margin-top: 8936287483672938px;
+        */
+        overflow-y: scroll;
+        overflow-x: none;
+        position: relative;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        height: 93vh;  
+}
+.walletwidget::-webkit-scrollbar{
+        display: none;
+      }
+.wallettop{
+        width: 100%;
+        transition: 0.5s;
+}
+
+
+
+.wallet__page__bodyBottom{
+        width: auto;
+        margin: 0 170px;
+        transition: 0.5s;
+        background-color: transparent;
+}
+.wallet__page__bodyBottom_header{
+        display: flex;
+        justify-content: space-around;
+        background-color: whitesmoke;
+        width: 850px;
+        border-radius: 13px;
+}
+.wallet__page__bodyBottom_header_container{
+        width: 300px;
+        height: 40px;
+
+}
+.wallet__bodyTokenSymble{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        color: gray;
+        font-size: small;
+}
+.wallet__bodyPriceTime{
+        display: flex;
+        justify-content: space-around;
+        padding: 0 4px;
+        color: gray;
+        font-size: small;
+}        
+
+.wallet__bodyMarketCapVolume{
+        display: flex;
+        justify-content: space-around;
+        padding: 0 4px;
+        color: gray;
+        font-size: small;
+}     
+.wallet__page__bodyBottom_header_container>h3{
+        margin-left: 50px;
+        font-size: small;
+}
+.empty{
+        width: 60px;
+        align-items: center;
+        padding: 8px;
+}
+.empty>.MuiSvgIcon-root{
+        color: gray;
+        margin-top: 3px;
+        font-size: 30px;
+        margin-left: 6px;
+        cursor: pointer;
+}
+.empty>.MuiSvgIcon-root:hover{
+        color: rgb(0, 128, 255);
+        transition: 0.2s;
+}
+.price{
+        margin-left: -30px;
+}
+.wallet__bodytime{
+        margin-left: -30px;
+}
+.wallet__bodymarket__Cap{
+        margin-left: -30px;
+}
+.wallet__bodymarket__Cap>p{
+        width: 100px;
+}
+.wallet__bodyavailable__balance{
+        margin-right: -30px;
+}
+.wallet__page__bodyBottom_header_container_p{
+        color: gray;
+        margin-left: 50px;
+        margin-top: 10px;
+}
+
+
+
+.wallet__widget__header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 10px;
+}
+.wallet__widget__header_back{
+        margin-left: -10px;
+}
+.wallet__widget__header_avatar{
+        margin-left: -35px;
+        cursor: pointer;
+}
+.wallet__widget__header_info{
+        margin-left: -35px;
+        margin-top: 5px;
+        cursor: pointer;
+        margin-right: 20px;
+}
+.walletwidget_coin_name{
+        margin-top: -10px;
+}
+.wallet__widget__header_back>.MuiSvgIcon-root:hover{
+        color: rgb(0, 64, 255);
+        cursor: pointer;
+}
+.wallet__widget__header_close:hover{
+    border-radius: 999px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    align-items: center;
+    color: red;
+}
+.wallet__money__boxHeader{
+        display: flex;
+        padding: 0 30px;
+        align-items: center;
+        color: black;
+        font-weight: 300;
+}
+.wallet__money__boxHeader>h1{
+        font-weight: 400;
+}
+.wallet__money__boxHeader_symbol_container>p{
+        padding: 2px 5px;
+        border-radius: 20px;
+        font-size: small;
+        font-weight: 600;
+        margin-left: 10px;
+        color: white;
+        background-color: rgb(64, 144, 242);
+
+}
+.wallet__money__boxBottom{
+        padding: 0 35px;
+        margin-top: -38px;
+}
+.wallet__money__box{
+        margin-top: -15px;
+        border-bottom: 0.5px solid lightgray;
+}
+.wallet__money__box_tranding_account{
+        display: flex;
+        padding: 15px 20px;
+        border-bottom: 0.5px solid lightgray;
+}
+.wallet__money__box_tranding_account_left{
+        margin-top: 10px;
+        margin-right: 10px;
+}
+.wallet__money__box_tranding_account_right_middle{
+        margin-top: -6px;
+        color: black;
+        font-weight: 200;
+        font-size: 20px;
+}
+.wallet__money__box_tranding_account_right_top{
+        margin-top: 8px;
+        font-size: small;
+}
+.wallet__money__box_tranding_account_right_bottom{
+   margin-top: -15px;
+   color: rgb(29, 212, 29);
+}
+.wallet__widget__bottom_header{
+        display: flex;
+        padding: 10px 20px;
+        justify-content: space-between;
+}
+.wallet__widget__bottom{
+        
+}
+.wallet__widget__bottom_rateBox_header{
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        justify-content: space-between;
+}
+.wallet__widget__bottom_rateBox_rate_parcent{
+        color: rgb(21, 190, 21);
+}
+.wallet__widget__bottom_rateBox_right{
+        height: 40px;
+        margin-top: -80px;
+}
+.wallet__widget__bottom_rateBox_right_p{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: rgb(34, 222, 34);
+        cursor: pointer;
+}
+.wallet__widget__bottom_rateBox_header{
+        cursor: pointer;
+}
+.wallet__widget__bottom_rateBox_rate{
+        height: 120px;
+}
+.wallet__widget__bottom_rateBox{
+    border-radius: 20px;
+    width: 320px;
+    margin-left: 12px;
+    box-shadow: 0px 10px 50px lightgray;
+    cursor: pointer;
+}
+.wallet__widget__bottom_buttons{
+        padding: 5px 10px;
+        justify-content: space-between;
+        margin-top: 50px;
+}
+.wallet__widget__bottom_buttons>button{
+        width: 120px;
+        margin-left: 20px;
+        color: gray;
+        text-transform: initial;
+        margin-right: 5px;
+        justify-content: space-around;
+        border: 0.5px solid lightgray;
+        border-radius: 10px;
+}
+
+.wallet__widget__bottom_buttons>button:hover{
+        background-color: rgb(28, 104, 255);
+        color: white;
+}
+.wallet__widget__bottomBox{
+        height: 300px;
+}
+.wallet_withdraw_bar_2nd{
+        border: 3px solid rgb(0, 157, 255);
+        padding: 4px 30px;
+        margin-top: 20px;
+        border-radius: 15px;
+        width: 260px;
+        cursor: pointer;
+}
+.wallet_withdraw_bar_2nd_header_count{
+        border: 1px solid lightgray;
+        height: 16px;
+        width: 10px;
+        font-size: small;
+        padding: 0 2px;
+        border-radius: 5px;
+        margin-left: 20px;
+}
+.wallet_withdraw_bar_2nd_header{
+        display: flex;
+        align-items: center;
+        font-size: small;
+}
+.wallet_withdraw_bar_2nd_bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -25px;
+
+}
+.wallet_withdraw_bar_2nd_bottom_left{
+        width: 200px;
+}
+.wallet_withdraw_bar_2nd_bottom_right{
+        color: rgb(2, 215, 2);
+        border-left: 10px;
+}
+.wallet_withdraw_bar_2nd_bottom_left_p{
+        border-right: 3px solid blue;
+        margin-right: 10px;
+}
+.wallet_withdraw_bar_3rd{
+        padding: 4px 30px;
+        margin-top: 20px;
+        border-radius: 15px;
+        border: 1px solid rgb(255, 124, 124);
+        width: 260px;
+        color: rgb(111, 111, 111);
+        cursor: pointer;
+        background-color: rgb(255, 209, 209);
+}
+.wallet_withdraw_bar_3rd2{
+        padding: 4px 30px;
+        margin-top: 20px;
+        color: rgb(111, 111, 111);
+        border-radius: 15px;
+        border: 1px solid rgb(113, 255, 100);
+        width: 260px;
+        cursor: pointer;
+        background-color: rgb(198, 255, 208);
+}
+.wallet_withdraw_bar_3rd_middle{
+        margin-top: -10px;
+}
+.wallet_withdraw_bar_3rd_bottom{
+        margin-top: -15px;
+}
+.wallet_withdraw_bar_4th{
+        margin-top: 20px;
+        color: rgb(111, 111, 111);
+        border-radius: 15px;
+        font-size: small;
+        width: 323px;
+        background-color: whitesmoke;
+}
+.wallet_withdraw_bar_4th_top_amount{
+        color: black;
+        font-size: medium;
+        margin-top: -8px;
+}
+.wallet_withdraw_bar_4th_top{
+        display: flex;
+        justify-content: space-between;
+        padding: 4px 30px;
+
+}
+.wallet_withdraw_bar_4th_bottom{
+        padding: 4px 30px;
+        background-color: orange;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        color: white;
+        font-weight: 500;
+}
+
+.wallet_withdraw_bar_5th{
+        padding: 4px 30px;
+        margin-top: 20px;
+        border-radius: 15px;
+        width: 260px;
+        cursor: pointer;
+        color: rgb(117, 117, 117);
+        background-color: whitesmoke;
+}
+.wallet_withdraw_bar_5th_header_count{
+        border: 1px solid lightgray;
+        height: 16px;
+        width: 10px;
+        font-size: small;
+        padding: 0 2px;
+        border-radius: 5px;
+        margin-left: 20px;
+}
+.wallet_withdraw_bar_5th_header{
+        display: flex;
+        align-items: center;
+        font-size: small;
+}
+.wallet_withdraw_bar_5th_bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -25px;
+
+}
+.wallet_withdraw_bar_5th_bottom_left{
+        width: 200px;
+}
+.wallet_withdraw_bar_5th_bottom_left_p{
+        margin-right: 10px;
+}
+.wallet_withdraw_bar_button>Button{
+        width: 300px;
+        height: 50px;
+        color: white;
+        text-transform: initial;
+        font-weight: 600;
+        background-color: blue;
+        margin-top: 20px;
+        margin-left: 15px;
+        border-radius: 15px;
+}
+.wallet_withdraw_bar_button>Button:hover{
+        background-color: blue;
+        transition: 5s;
+}

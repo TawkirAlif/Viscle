@@ -1,0 +1,124 @@
+
+.middlewidget{
+        width: 780px;
+        margin-bottom: 20px;
+
+}
+.middle__widget__top_messageBox{
+        width: 600px;
+        margin: 30px 40px;
+        padding: 10px 40px;
+        border-radius: 40px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+.middle__widget__top_messageBox_close>.MuiSvgIcon-root{
+     margin-left: 390px;
+     background-color: white;
+     border-radius: 999px;
+     font-size: 20px;
+     transition: 0.5s;
+     cursor: pointer;
+
+}
+.middle__widget__top_messageBox_close>.MuiSvgIcon-root:hover{
+    cursor: pointer;
+    color: red;
+    transition: 0.5s;
+    font-size: 25px;
+}
+.middle__widget__top_messageBox_close{
+        margin-top: 10px;
+        display: flex;
+        flex: 1;
+}
+.middle__widget__top_messageBox_time{
+        color: white;
+        font-weight: 600;
+}
+.middle__widget__top_messageBox_time>p{
+        width: 200px;
+}
+.middle__widget__top_messageBox_messageHeader{
+    color: white;
+    max-width: 300px;
+    
+}
+.middle__widget__top_messageBox_message{
+        color: white;
+        max-width: 300px;
+        font-weight: 600;
+        margin-bottom: 20px;
+}
+.middle__widget__top_messageBox_button>Button{
+        background-color: white;
+        padding: 10px 0px;
+        transition: 0.5s;
+        margin-bottom: 70px;
+        width: 100px;
+        padding: 10px 0px;
+        text-transform: initial;
+        font-size: medium;
+}
+.middle__widget__top_messageBox_button>Button:hover{
+        background-color: white;
+        width: 130px;
+        padding: 10px 0px;
+        transition: 0.5s;
+}
+
+.middle__widget__top_messageBox_active{
+        display: flex;
+}
+.middle__widget__top_messageBox_Active1{
+        width: 30px;
+        padding: 2px;
+        margin-right:5px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        background-color: white;
+        cursor: pointer;
+        transition: 0.5s;
+}
+.middle__widget__top_messageBox_Active2{
+        width: 30px;
+        padding: 2px;
+        margin-right:5px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        background-color: rgb(212, 171, 222);
+        cursor: pointer;
+        transition: 0.5s;
+        
+}
+.middle__widget__top_messageBox_Active1:hover{
+        transition: 0.5s;
+        width: 50px;
+        cursor: pointer;
+}.middle__widget__top_messageBox_Active2:hover{
+        width: 50px;
+        transition: 0.5s;
+        cursor: pointer;
+}
+.middle__widget__middle{
+        display: flex;
+}
+.middle__widget__middle_buttons{
+        margin-left: 40px;
+}
+.middle__widget__middle_buttons>Button{
+     margin-right:5px;
+     border-radius: 20px;
+     width: 130px;
+        text-transform: initial;
+        font-size: medium;
+}
+.middle__widget__middle_buttons>Button:hover{
+
+           color: blue;
+}
+
+.middle_widget_select{
+        margin-left: 1px;
+}

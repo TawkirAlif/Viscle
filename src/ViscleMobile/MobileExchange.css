@@ -1,0 +1,60 @@
+.ViscleMobile_body_main_middle_top{
+        display: flex;
+        align-items: center;
+}
+.viscle_mobile_currency__info__box{
+        padding: 0 30px;
+}
+.ViscleMobile_body_main_middle_top{
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between; 
+}
+.ViscleMobile_body_main_middle_middle{
+        display: flex;
+        align-items: center;
+        border: 1px solid lightgray;
+        border-radius: 20px;
+        width: 90%;
+}
+.currency__info_box{
+        display: flex;
+        height: 100px;
+        width: 200px;
+        justify-content: space-around;
+        align-items: center;
+        color: rgb(86, 86, 86);
+        font-size: 15px;
+        cursor: pointer;
+        border-right: 0.5px solid lightgray;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+}
+.currency__info__box{
+        display: flex;
+        height: 100px;
+        width: 200px;
+        justify-content: space-around;
+        align-items: center;
+        color: rgb(86, 86, 86);
+        font-size: 15px;
+        cursor: pointer;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+}
+.currency__info__box:hover{
+        background-color: whitesmoke;
+        transition: 0.3s;
+        transform: scale(1.01);
+        cursor: pointer;
+
+}
+.currency__info_box:hover{
+        background-color: whitesmoke;
+        transition: 0.3s;
+        transform: scale(1.01);
+        cursor: pointer;
+
+}

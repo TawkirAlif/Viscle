@@ -1,0 +1,37 @@
+.ViscleMobile_header_top_logo>img{
+        height: 30px;
+}
+.ViscleMobile_header{
+        padding: 0 20px;
+        transition: 1s;
+        border-bottom: 1px solid lightgray;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+}
+.ViscleMobile_header_bottom_option_text{
+        margin-left: 20px;
+}
+.ViscleMobile_header_top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        margin-top: 20px;
+
+}
+.ViscleMobile_header_top_notification{
+        color: gray;
+}
+.ViscleMobile_header_top_close{
+        color: gray;
+}
+.ViscleMobile_header_top_close:hover{
+    color: red;
+}
+.ViscleMobile_header_right{
+        display: flex;
+        width: 100px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 0px;
+}
